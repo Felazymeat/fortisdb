@@ -13,7 +13,7 @@
     <trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
     <trending>true</trending>
     <reviews>
-      <review user="Raka_Sinema" score="10" date="2024-03-10">Film yang mengubah cara saya melihat sinema. Setiap layer mimpi terasa nyata dan mencekam. Nolan genius.</review>
+      <review user="demas" score="10" date="2024-03-10">gapaham cik</review>
       <review user="FilmFreak_ID" score="9" date="2024-02-28">Masterpiece absolut. Skor Hans Zimmer bikin bulu kuduk merinding dari awal sampai akhir.</review>
       <review user="CinemaLover" score="9" date="2024-01-15">Sudah nonton 5 kali dan masih menemukan detail baru. Karya yang timeless.</review>
     </reviews>
@@ -44,7 +44,7 @@
     <synopsis>Batman menghadapi musuh paling berbahayanya — The Joker — seorang kriminal anarchis yang bertekad menjungkirbalikkan tatanan kota Gotham dan mendorong Batman ke batas moralnya.</synopsis>
     <rating>9.5</rating>
     <votes>3210</votes>
-    <poster>https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/original/2Pf0Dtw6P9CWshK6GYVXmmq9NFS.jpg</poster>
     <trailer>https://www.youtube.com/embed/EXeTwQWrcwY</trailer>
     <trending>true</trending>
     <reviews>
@@ -70,6 +70,7 @@
       <review user="SosialKritik" score="9" date="2024-01-22">Kritik kelas sosial yang dikemas sempurna dalam genre thriller. Setiap simbol punya makna mendalam.</review>
     </reviews>
   </film>
+
   <film id="5">
     <title>Dune</title>
     <year>2021</year>
@@ -79,7 +80,7 @@
     <synopsis>Paul Atreides, seorang pemuda berbakat lahir dari takdir yang jauh melampaui pemahamannya, harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depan keluarganya dan rakyatnya.</synopsis>
     <rating>8.3</rating>
     <votes>1432</votes>
-    <poster>https://image.tmdb.org/t/p/w500/d5NXSklpcKCBqO9MCP7jHL7zFWT.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/original/lr3cYNDlJcpT1EWzFH42aSIvkab.jpg</poster>
     <trailer>https://www.youtube.com/embed/8g18jFHCLXk</trailer>
     <trending>true</trending>
     <reviews>
@@ -164,7 +165,7 @@
     <synopsis>Bella Baxter, seorang wanita yang dihidupkan kembali oleh seorang ilmuwan eksentrik dengan otak bayi, melarikan diri bersama seorang pengacara untuk menjelajahi dunia dan mendapati kebebasan, kesenangan, dan pemikiran kritis.</synopsis>
     <rating>8.0</rating>
     <votes>1102</votes>
-    <poster>https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXIf4oc0M3kMEBZ.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/w1280/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg</poster>
     <trailer>https://www.youtube.com/embed/RlbR5N6veqw</trailer>
     <trending>true</trending>
     <reviews>
@@ -198,7 +199,7 @@
     <synopsis>Setelah kematian nenek mereka yang misterius, keluarga Graham mulai mengungkap rahasia kelam yang menghantui silsilah mereka — sesuatu yang jauh lebih gelap dan kuno dari yang bisa mereka bayangkan.</synopsis>
     <rating>8.1</rating>
     <votes>1298</votes>
-    <poster>https://image.tmdb.org/t/p/w500/4O73A1K0A3bxWGLc3H2KEroFLi5.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/w1280/4GFPuL14eXi66V96xBWY73Y9PfR.jpg</poster>
     <trailer>https://www.youtube.com/embed/V6wWKNij_1M</trailer>
     <trending>false</trending>
     <reviews>

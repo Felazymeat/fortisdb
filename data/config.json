@@ -20,19 +20,19 @@
   "banners": [
     {
       "filmId": 3,
-      "headline": "Heath Ledger · The Joker",
+      "headline": "Why so serious?",
       "sub": "Performa legendaris yang mengubah standar film superhero selamanya.",
       "bg": "linear-gradient(135deg, #0a0a0f 0%, #1a0a1a 50%, #2a0a0a 100%)"
     },
     {
       "filmId": 7,
-      "headline": "Now We Are All Sons of Bitches",
+      "headline": "Now im become death, the destroyer of worlds",
       "sub": "Kisah pria yang menciptakan senjata paling mematikan dalam sejarah manusia.",
       "bg": "linear-gradient(135deg, #0a0a0f 0%, #1a1a0a 50%, #0a1a1a 100%)"
     },
     {
       "filmId": 5,
-      "headline": "He Who Controls the Spice...",
+      "headline": "I must not fear.",
       "sub": "Epic visual terbaik dekade ini hadir di Arrakis — planet paling berbahaya di galaksi.",
       "bg": "linear-gradient(135deg, #0a0a0f 0%, #1a0f0a 50%, #2a1505 100%)"
     }
