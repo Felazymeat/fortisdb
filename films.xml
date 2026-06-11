@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films>
+  <film id="1">
+    <title>Inception</title>
+    <year>2010</year>
+    <genre>Sci-Fi</genre>
+    <duration>148</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Seorang pencuri handal yang bekerja dengan cara menyusup ke mimpi orang lain untuk mencuri rahasia dari alam bawah sadar mereka ditugaskan untuk menanamkan sebuah ide ke dalam benak target — sebuah misi yang hampir mustahil disebut "inception".</synopsis>
+    <rating>9.2</rating>
+    <votes>2841</votes>
+    <poster>https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg</poster>
+    <trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="Raka_Sinema" score="10" date="2024-03-10">Film yang mengubah cara saya melihat sinema. Setiap layer mimpi terasa nyata dan mencekam. Nolan genius.</review>
+      <review user="FilmFreak_ID" score="9" date="2024-02-28">Masterpiece absolut. Skor Hans Zimmer bikin bulu kuduk merinding dari awal sampai akhir.</review>
+      <review user="CinemaLover" score="9" date="2024-01-15">Sudah nonton 5 kali dan masih menemukan detail baru. Karya yang timeless.</review>
+    </reviews>
+  </film>
+  <film id="2">
+    <title>Interstellar</title>
+    <year>2014</year>
+    <genre>Sci-Fi</genre>
+    <duration>169</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Saat Bumi menghadapi kepunahan akibat gagal panen dan badai debu, seorang mantan pilot NASA memimpin ekspedisi melewati lubang cacing di dekat Saturnus untuk mencari planet baru yang layak huni bagi umat manusia.</synopsis>
+    <rating>8.9</rating>
+    <votes>1923</votes>
+    <poster>https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</poster>
+    <trailer>https://www.youtube.com/embed/zSWdZVtXT7E</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="AstroFilm" score="10" date="2024-04-01">Perjalanan luar angkasa paling emosional yang pernah ada di layar lebar. Adegan docking itu...</review>
+      <review user="ScienceBuff_ID" score="8" date="2024-03-20">Akurasi ilmiahnya mengagumkan. Kip Thorne layak dapat Nobel untuk visualisasi black hole ini.</review>
+    </reviews>
+  </film>
+  <film id="3">
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genre>Action</genre>
+    <duration>152</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Batman menghadapi musuh paling berbahayanya — The Joker — seorang kriminal anarchis yang bertekad menjungkirbalikkan tatanan kota Gotham dan mendorong Batman ke batas moralnya.</synopsis>
+    <rating>9.5</rating>
+    <votes>3210</votes>
+    <poster>https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg</poster>
+    <trailer>https://www.youtube.com/embed/EXeTwQWrcwY</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="DCFan_Andro" score="10" date="2024-05-01">Heath Ledger sebagai Joker adalah performa terbaik dalam sejarah film superhero. Tak tertandingi.</review>
+      <review user="GothamNights" score="10" date="2024-04-15">Bukan film superhero biasa. Ini adalah film kriminal kelas dunia yang kebetulan ada Batman di dalamnya.</review>
+      <review user="UrbanCinema" score="9" date="2024-03-30">Setiap dialog Joker terasa seperti kutipan filosofi. Nolan di puncak kreativitasnya.</review>
+    </reviews>
+  </film>
+  <film id="4">
+    <title>Parasite</title>
+    <year>2019</year>
+    <genre>Thriller</genre>
+    <duration>132</duration>
+    <director>Bong Joon-ho</director>
+    <synopsis>Keluarga Ki-taek yang miskin dan menganggur berhasil menyusup masuk ke dalam kehidupan keluarga Park yang sangat kaya, hingga sebuah kejadian tak terduga memicu rangkaian peristiwa gelap yang tak bisa dihentikan.</synopsis>
+    <rating>8.8</rating>
+    <votes>1756</votes>
+    <poster>https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg</poster>
+    <trailer>https://www.youtube.com/embed/5xH0HfJHsaY</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="KoreanFilm_ID" score="10" date="2024-02-10">Palme d'Or dan Oscar sekaligus. Bong Joon-ho membuktikan bahwa sinema Asia layak di panggung dunia.</review>
+      <review user="SosialKritik" score="9" date="2024-01-22">Kritik kelas sosial yang dikemas sempurna dalam genre thriller. Setiap simbol punya makna mendalam.</review>
+    </reviews>
+  </film>
+  <film id="5">
+    <title>Dune</title>
+    <year>2021</year>
+    <genre>Sci-Fi</genre>
+    <duration>155</duration>
+    <director>Denis Villeneuve</director>
+    <synopsis>Paul Atreides, seorang pemuda berbakat lahir dari takdir yang jauh melampaui pemahamannya, harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depan keluarganya dan rakyatnya.</synopsis>
+    <rating>8.3</rating>
+    <votes>1432</votes>
+    <poster>https://image.tmdb.org/t/p/w500/d5NXSklpcKCBqO9MCP7jHL7zFWT.jpg</poster>
+    <trailer>https://www.youtube.com/embed/8g18jFHCLXk</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="SciFiVault" score="9" date="2024-04-10">Villeneuve berhasil mengadaptasi novel epik yang banyak orang bilang mustahil diadaptasi. Vizualnya luar biasa.</review>
+      <review user="DesertStorm_ID" score="8" date="2024-03-15">World-building terbaik decade ini. Arrakis terasa nyata dan hidup di setiap frame.</review>
+    </reviews>
+  </film>
+  <film id="6">
+    <title>Everything Everywhere All at Once</title>
+    <year>2022</year>
+    <genre>Drama</genre>
+    <duration>139</duration>
+    <director>Daniel Kwan &amp; Daniel Scheinert</director>
+    <synopsis>Seorang wanita Tionghoa-Amerika yang kewalahan mengelola laundry-nya terseret ke dalam petualangan aneh di mana ia harus terhubung dengan kehidupan-kehidupan paralel dirinya sendiri untuk menyelamatkan multiverse.</synopsis>
+    <rating>8.7</rating>
+    <votes>1689</votes>
+    <poster>https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg</poster>
+    <trailer>https://www.youtube.com/embed/wxN1T1uxQ2g</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="MultiverseMind" score="10" date="2024-05-10">Film paling orisinal dalam 10 tahun terakhir. Menangis, tertawa, dan berpikir keras dalam waktu yang sama.</review>
+      <review user="A24Fan_ID" score="9" date="2024-04-20">Michelle Yeoh layak dapat Oscar-nya. Performa yang raw dan penuh nuansa.</review>
+    </reviews>
+  </film>
+  <film id="7">
+    <title>Oppenheimer</title>
+    <year>2023</year>
+    <genre>Drama</genre>
+    <duration>180</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Kisah J. Robert Oppenheimer dan perannya yang menentukan dalam pengembangan bom atom selama Proyek Manhattan, serta konsekuensi moral yang mengikutinya sepanjang hidupnya.</synopsis>
+    <rating>9.0</rating>
+    <votes>2145</votes>
+    <poster>https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg</poster>
+    <trailer>https://www.youtube.com/embed/uYPbbksJxIg</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="HistoryBuff_ID" score="10" date="2024-05-15">Cillian Murphy menghidupkan sosok Oppenheimer dengan cara yang tak bisa dilupakan. IMAX experience wajib.</review>
+      <review user="AtomicCinema" score="9" date="2024-04-25">Nolan membuktikan bahwa film biografi bisa se-intensif thriller psikologis. Adegan Trinity test itu menghancurkan.</review>
+    </reviews>
+  </film>
+  <film id="8">
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genre>Drama</genre>
+    <duration>142</duration>
+    <director>Frank Darabont</director>
+    <synopsis>Seorang bankir yang dihukum atas pembunuhan yang tidak dilakukannya membangun persahabatan mendalam di dalam penjara Shawshank, sambil diam-diam mempersiapkan sesuatu yang akan mengubah segalanya.</synopsis>
+    <rating>9.4</rating>
+    <votes>3089</votes>
+    <poster>https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg</poster>
+    <trailer>https://www.youtube.com/embed/6hB3S9bIaco</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="ClassicFilm_ID" score="10" date="2024-03-01">Film terbaik sepanjang masa menurut IMDb, dan saya setuju. Setiap adegan punya bobot emosional yang luar biasa.</review>
+      <review user="MorganFan" score="10" date="2024-02-14">Narasinya sempurna dari awal sampai akhir. "Hope is a good thing" — kutipan yang selalu relevan.</review>
+    </reviews>
+  </film>
+  <film id="9">
+    <title>Spirited Away</title>
+    <year>2001</year>
+    <genre>Animation</genre>
+    <duration>125</duration>
+    <director>Hayao Miyazaki</director>
+    <synopsis>Chihiro, seorang gadis 10 tahun, tersesat ke dunia roh bersama kedua orang tuanya. Untuk menyelamatkan mereka, ia harus bekerja di sebuah pemandian ajaib yang dipenuhi dewa-dewa dan roh dari tradisi Jepang.</synopsis>
+    <rating>8.9</rating>
+    <votes>1987</votes>
+    <poster>https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg</poster>
+    <trailer>https://www.youtube.com/embed/ByXuk9QqQkk</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="GhibliFan_ID" score="10" date="2024-04-05">Studio Ghibli di puncak kejayaannya. Film animasi yang tidak hanya untuk anak-anak tapi untuk semua jiwa.</review>
+      <review user="AnimeWorld" score="9" date="2024-03-10">Miyazaki menciptakan dunia yang begitu kaya dan detail hingga setiap nonton selalu menemukan hal baru.</review>
+    </reviews>
+  </film>
+  <film id="10">
+    <title>Poor Things</title>
+    <year>2023</year>
+    <genre>Drama</genre>
+    <duration>141</duration>
+    <director>Yorgos Lanthimos</director>
+    <synopsis>Bella Baxter, seorang wanita yang dihidupkan kembali oleh seorang ilmuwan eksentrik dengan otak bayi, melarikan diri bersama seorang pengacara untuk menjelajahi dunia dan mendapati kebebasan, kesenangan, dan pemikiran kritis.</synopsis>
+    <rating>8.0</rating>
+    <votes>1102</votes>
+    <poster>https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXIf4oc0M3kMEBZ.jpg</poster>
+    <trailer>https://www.youtube.com/embed/RlbR5N6veqw</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="ArthouseVibes" score="9" date="2024-05-20">Emma Stone memberikan performa hidupnya. Visual surrealis Lanthimos tidak ada duanya.</review>
+      <review user="FestivalFilm" score="8" date="2024-04-30">Satir feminis yang dibungkus dalam estetika victorian gothic. Brave cinema.</review>
+    </reviews>
+  </film>
+  <film id="11">
+    <title>Mad Max: Fury Road</title>
+    <year>2015</year>
+    <genre>Action</genre>
+    <duration>120</duration>
+    <director>George Miller</director>
+    <synopsis>Di gurun pasca-apokalipsi yang gersang, Max Rockatansky bergabung dengan Imperator Furiosa dalam pelarian maut melintasi padang pasir untuk membebaskan istri-istri seorang tiran kejam bernama Immortan Joe.</synopsis>
+    <rating>8.5</rating>
+    <votes>1654</votes>
+    <poster>https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg</poster>
+    <trailer>https://www.youtube.com/embed/hEJnMQG9ev8</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="ActionJunkie_ID" score="10" date="2024-02-20">Film action terbaik abad 21. 2 jam non-stop adrenalin dengan sinematografi yang jaw-dropping.</review>
+      <review user="FeminismFilm" score="9" date="2024-01-30">Furiosa adalah karakter aksi terbaik dalam sejarah. George Miller revolusioner.</review>
+    </reviews>
+  </film>
+  <film id="12">
+    <title>Hereditary</title>
+    <year>2018</year>
+    <genre>Horror</genre>
+    <duration>127</duration>
+    <director>Ari Aster</director>
+    <synopsis>Setelah kematian nenek mereka yang misterius, keluarga Graham mulai mengungkap rahasia kelam yang menghantui silsilah mereka — sesuatu yang jauh lebih gelap dan kuno dari yang bisa mereka bayangkan.</synopsis>
+    <rating>8.1</rating>
+    <votes>1298</votes>
+    <poster>https://image.tmdb.org/t/p/w500/4O73A1K0A3bxWGLc3H2KEroFLi5.jpg</poster>
+    <trailer>https://www.youtube.com/embed/V6wWKNij_1M</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="HorrorHead_ID" score="10" date="2024-03-25">Film horor paling menakutkan dalam dekade ini. Bukan jumpscares murahan, tapi terror yang genuine.</review>
+      <review user="A24Horror" score="9" date="2024-02-18">Toni Collette seharusnya dapat Oscar untuk peran ini. Performa yang menghancurkan jiwa.</review>
+    </reviews>
+  </film>
+</films>
