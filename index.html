@@ -6,632 +6,14 @@
   <title>Cinematic Vault — Arsip Sinema Terlengkap</title>
 
   <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="[https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css)">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="[https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap)" rel="stylesheet">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <style>
-    /* ─── TOKENS ─────────────────────────────────────── */
-    :root {
-      --void:    #0A0A0F;
-      --deep:    #12121A;
-      --card:    #1A1A2E;
-      --border:  #2A2A40;
-      --gold:    #E8C96B;
-      --gold-dim:#B89A40;
-      --crimson: #C0392B;
-      --cyan:    #4ECDC4;
-      --text:    #E8E8F0;
-      --muted:   #8888A0;
-      --ff-display: 'Playfair Display', Georgia, serif;
-      --ff-body:    'Inter', system-ui, sans-serif;
-    }
-
-    /* ─── BASE ───────────────────────────────────────── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      background: var(--void);
-      color: var(--text);
-      font-family: var(--ff-body);
-      font-size: 15px;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-    ::selection { background: var(--gold); color: var(--void); }
-
-    /* ─── SCROLLBAR ──────────────────────────────────── */
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: var(--deep); }
-    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
-
-    /* ─── LOADING SCREEN ─────────────────────────────── */
-    #loading-screen {
-      position: fixed; inset: 0;
-      background: var(--void);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      z-index: 9999;
-      transition: opacity 0.6s ease, visibility 0.6s ease;
-    }
-    #loading-screen.hidden { opacity: 0; visibility: hidden; }
-    .loader-logo {
-      font-family: var(--ff-display);
-      font-size: 2rem; font-weight: 900;
-      color: var(--gold);
-      letter-spacing: 4px;
-      margin-bottom: 1.5rem;
-    }
-    .loader-bar {
-      width: 200px; height: 2px;
-      background: var(--border);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-    .loader-fill {
-      height: 100%; width: 0;
-      background: var(--gold);
-      transition: width 1.5s ease;
-    }
-
-    /* ─── NAVBAR ─────────────────────────────────────── */
-    #main-nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-      background: transparent;
-      transition: background 0.4s ease, box-shadow 0.4s ease;
-      padding: 0;
-    }
-    #main-nav.scrolled {
-      background: rgba(10,10,15,0.95);
-      backdrop-filter: blur(12px);
-      box-shadow: 0 1px 0 var(--border);
-    }
-    .nav-inner {
-      max-width: 1400px; margin: 0 auto;
-      padding: 1rem 2rem;
-      display: flex; align-items: center; gap: 2rem;
-    }
-    .nav-brand {
-      font-family: var(--ff-display);
-      font-size: 1.3rem; font-weight: 900;
-      color: var(--gold) !important;
-      text-decoration: none;
-      letter-spacing: 2px;
-      white-space: nowrap;
-    }
-    .nav-brand span { color: var(--crimson); }
-    .nav-links {
-      display: flex; gap: 1.5rem; list-style: none;
-      flex: 1;
-    }
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.85rem;
-      font-weight: 500;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-    .nav-search-wrap {
-      position: relative; flex: 0 0 280px;
-    }
-    #nav-search {
-      width: 100%;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 0.5rem 1rem 0.5rem 2.5rem;
-      color: var(--text);
-      font-family: var(--ff-body);
-      font-size: 0.85rem;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-    #nav-search:focus { border-color: var(--gold); }
-    #nav-search::placeholder { color: var(--muted); }
-    .nav-search-icon {
-      position: absolute; left: 0.85rem; top: 50%;
-      transform: translateY(-50%);
-      color: var(--muted); font-size: 0.8rem;
-    }
-    /* Search suggestions dropdown */
-    #search-suggestions {
-      display: none;
-      position: absolute; top: calc(100% + 8px); left: 0; right: 0;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-      z-index: 200;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-    }
-    #search-suggestions.show { display: block; }
-    .suggestion-item {
-      display: flex; align-items: center; gap: 0.75rem;
-      padding: 0.6rem 1rem;
-      cursor: pointer;
-      transition: background 0.15s;
-    }
-    .suggestion-item:hover { background: var(--deep); }
-    .suggestion-poster {
-      width: 32px; height: 48px;
-      object-fit: cover; border-radius: 4px;
-      flex-shrink: 0;
-    }
-    .suggestion-info { flex: 1; min-width: 0; }
-    .suggestion-title {
-      font-size: 0.85rem; font-weight: 600;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-      color: var(--text);
-    }
-    .suggestion-meta { font-size: 0.75rem; color: var(--muted); }
-
-    /* ─── HERO BANNER ────────────────────────────────── */
-    #hero {
-      position: relative;
-      height: 100vh; min-height: 600px;
-      display: flex; align-items: flex-end;
-      overflow: hidden;
-    }
-    .hero-bg {
-      position: absolute; inset: 0;
-      background-size: cover; background-position: center;
-      filter: brightness(0.35);
-      transition: opacity 0.8s ease;
-    }
-    .hero-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(to top, var(--void) 0%, transparent 50%, rgba(0,0,0,0.3) 100%);
-    }
-    .hero-content {
-      position: relative; z-index: 2;
-      max-width: 1400px; width: 100%;
-      margin: 0 auto;
-      padding: 0 2rem 5rem;
-    }
-    .hero-eyebrow {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      font-size: 0.75rem; font-weight: 600;
-      letter-spacing: 3px; text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
-    }
-    .hero-eyebrow::before {
-      content: ''; display: block;
-      width: 24px; height: 1px;
-      background: var(--gold);
-    }
-    .hero-title {
-      font-family: var(--ff-display);
-      font-size: clamp(2.5rem, 6vw, 5rem);
-      font-weight: 900; line-height: 1.1;
-      color: #fff;
-      margin-bottom: 1rem;
-    }
-    .hero-sub {
-      font-size: 1rem; color: rgba(255,255,255,0.7);
-      max-width: 520px;
-      margin-bottom: 2rem;
-      line-height: 1.7;
-    }
-    .hero-cta {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      background: var(--gold);
-      color: var(--void);
-      padding: 0.75rem 2rem;
-      border-radius: 4px;
-      font-weight: 700; font-size: 0.85rem;
-      letter-spacing: 1px; text-transform: uppercase;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.2s;
-      border: none; cursor: pointer;
-    }
-    .hero-cta:hover { background: #fff; transform: translateY(-2px); color: var(--void); text-decoration: none; }
-    .hero-dots {
-      position: absolute; bottom: 2rem; right: 2rem;
-      display: flex; gap: 0.5rem;
-      z-index: 2;
-    }
-    .hero-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: var(--muted);
-      cursor: pointer;
-      transition: background 0.2s, transform 0.2s;
-      border: none;
-    }
-    .hero-dot.active { background: var(--gold); transform: scale(1.4); }
-
-    /* ─── STATS BAR ──────────────────────────────────── */
-    #stats-bar {
-      background: var(--card);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
-    .stats-inner {
-      max-width: 1400px; margin: 0 auto;
-      padding: 1.5rem 2rem;
-      display: flex; justify-content: space-around; align-items: center;
-    }
-    .stat-item { text-align: center; }
-    .stat-num {
-      font-family: var(--ff-display);
-      font-size: 2rem; font-weight: 900;
-      color: var(--gold); line-height: 1;
-    }
-    .stat-label { font-size: 0.75rem; color: var(--muted); letter-spacing: 1px; margin-top: 0.25rem; }
-
-    /* ─── SECTION HEADERS ────────────────────────────── */
-    .section-header {
-      display: flex; align-items: baseline; gap: 1rem;
-      margin-bottom: 2rem;
-    }
-    .section-title {
-      font-family: var(--ff-display);
-      font-size: 1.6rem; font-weight: 700;
-      color: var(--text);
-    }
-    .section-line {
-      flex: 1; height: 1px;
-      background: var(--border);
-    }
-    .section-count {
-      font-size: 0.8rem; color: var(--muted);
-    }
-
-    /* ─── LAYOUT WRAPPER ─────────────────────────────── */
-    .site-section {
-      max-width: 1400px; margin: 0 auto;
-      padding: 4rem 2rem;
-    }
-
-    /* ─── TRENDING CAROUSEL ──────────────────────────── */
-    #trending { background: var(--deep); }
-    .carousel-track-wrap {
-      overflow: hidden; position: relative;
-    }
-    .carousel-track {
-      display: flex; gap: 1.25rem;
-      transition: transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94);
-    }
-    .carousel-nav {
-      display: flex; gap: 0.75rem;
-      margin-top: 1.5rem;
-      justify-content: flex-end;
-    }
-    .carousel-btn {
-      width: 40px; height: 40px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 50%;
-      color: var(--text);
-      display: flex; align-items: center; justify-content: center;
-      cursor: pointer;
-      transition: background 0.2s, border-color 0.2s;
-    }
-    .carousel-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--void); }
-
-    /* ─── FILM CARD ──────────────────────────────────── */
-    .film-card {
-      flex: 0 0 200px;
-      position: relative;
-      cursor: pointer;
-      border-radius: 8px;
-      overflow: hidden;
-      background: var(--card);
-      border: 1px solid var(--border);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .film-card:hover {
-      transform: translateY(-8px) rotate(-0.5deg);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.6), 0 0 0 1px var(--gold-dim);
-    }
-    /* Film strip perforations — signature element */
-    .film-card::before {
-      content: '';
-      position: absolute; left: 0; top: 0; bottom: 0;
-      width: 14px;
-      background: repeating-linear-gradient(
-        to bottom,
-        transparent 0px,
-        transparent 8px,
-        var(--void) 8px,
-        var(--void) 12px
-      );
-      border-right: 1px solid rgba(255,255,255,0.05);
-      z-index: 2;
-    }
-    .film-card-poster {
-      display: block; width: 100%;
-      aspect-ratio: 2/3;
-      object-fit: cover;
-      transition: transform 0.4s ease;
-    }
-    .film-card:hover .film-card-poster { transform: scale(1.04); }
-    .film-card-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(to top, rgba(10,10,15,0.95) 0%, transparent 50%);
-      opacity: 0;
-      transition: opacity 0.3s;
-      display: flex; align-items: flex-end;
-      padding: 1rem 0.75rem 0.75rem 1.25rem;
-    }
-    .film-card:hover .film-card-overlay { opacity: 1; }
-    .film-card-info { width: 100%; }
-    .film-card-title {
-      font-family: var(--ff-display);
-      font-size: 0.85rem; font-weight: 700;
-      color: #fff; line-height: 1.3;
-      margin-bottom: 0.25rem;
-    }
-    .film-card-meta {
-      font-size: 0.7rem; color: var(--muted);
-    }
-    .film-card-rating {
-      position: absolute; top: 0.6rem; right: 0.6rem;
-      background: rgba(10,10,15,0.85);
-      border: 1px solid var(--gold-dim);
-      border-radius: 4px;
-      padding: 0.2rem 0.4rem;
-      font-size: 0.7rem; font-weight: 700;
-      color: var(--gold);
-      z-index: 3;
-    }
-    .film-card-badge {
-      position: absolute; top: 0.6rem; left: 0.6rem;
-      background: var(--crimson);
-      border-radius: 3px;
-      padding: 0.15rem 0.5rem;
-      font-size: 0.6rem; font-weight: 700;
-      letter-spacing: 1px; text-transform: uppercase;
-      color: #fff;
-      z-index: 3;
-    }
-
-    /* ─── GENRE FILTER ───────────────────────────────── */
-    #catalogue { background: var(--void); }
-    .genre-pills {
-      display: flex; flex-wrap: wrap; gap: 0.5rem;
-      margin-bottom: 2.5rem;
-    }
-    .genre-pill {
-      display: inline-flex; align-items: center; gap: 0.4rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 0.4rem 1rem;
-      font-size: 0.8rem; font-weight: 500;
-      color: var(--muted);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .genre-pill:hover { border-color: var(--gold-dim); color: var(--text); }
-    .genre-pill.active { background: var(--gold); border-color: var(--gold); color: var(--void); font-weight: 700; }
-
-    /* ─── FILM GRID ──────────────────────────────────── */
-    #film-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-      gap: 1.25rem;
-    }
-    #film-grid .film-card { flex: unset; }
-    .no-results {
-      grid-column: 1/-1;
-      text-align: center;
-      padding: 4rem 2rem;
-      color: var(--muted);
-    }
-    .no-results i { font-size: 3rem; margin-bottom: 1rem; display: block; color: var(--border); }
-
-    /* ─── FILM DETAIL MODAL ──────────────────────────── */
-    #film-modal {
-      display: none;
-      position: fixed; inset: 0; z-index: 2000;
-      background: rgba(0,0,0,0.85);
-      backdrop-filter: blur(6px);
-      overflow-y: auto;
-      padding: 2rem 1rem;
-    }
-    #film-modal.show { display: flex; align-items: flex-start; justify-content: center; }
-    .modal-card {
-      background: var(--deep);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      width: 100%; max-width: 900px;
-      overflow: hidden;
-      animation: modalIn 0.4s cubic-bezier(0.34,1.56,0.64,1);
-    }
-    @keyframes modalIn {
-      from { opacity: 0; transform: translateY(40px) scale(0.95); }
-      to   { opacity: 1; transform: translateY(0) scale(1); }
-    }
-    .modal-hero {
-      position: relative;
-      background: var(--card);
-    }
-    .modal-hero-backdrop {
-      position: absolute; inset: 0;
-      background-size: cover; background-position: center top;
-      filter: blur(20px) brightness(0.3);
-    }
-    .modal-hero-inner {
-      position: relative; z-index: 1;
-      display: flex; gap: 2rem;
-      padding: 2rem;
-    }
-    .modal-poster {
-      flex-shrink: 0; width: 160px;
-      border-radius: 8px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
-    }
-    .modal-meta { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; }
-    .modal-genre-tag {
-      display: inline-block;
-      background: var(--crimson);
-      color: #fff;
-      font-size: 0.7rem; font-weight: 700;
-      letter-spacing: 1px; text-transform: uppercase;
-      padding: 0.2rem 0.6rem; border-radius: 3px;
-      margin-bottom: 0.75rem;
-    }
-    .modal-title {
-      font-family: var(--ff-display);
-      font-size: 2rem; font-weight: 900;
-      color: #fff; line-height: 1.2;
-      margin-bottom: 0.5rem;
-    }
-    .modal-details-row {
-      display: flex; gap: 1.5rem; flex-wrap: wrap;
-      font-size: 0.8rem; color: var(--muted);
-      margin-bottom: 1rem;
-    }
-    .modal-details-row span { display: flex; align-items: center; gap: 0.4rem; }
-    .modal-rating-big {
-      display: flex; align-items: baseline; gap: 0.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .modal-rating-num {
-      font-family: var(--ff-display);
-      font-size: 3rem; font-weight: 900;
-      color: var(--gold); line-height: 1;
-    }
-    .modal-rating-max { color: var(--muted); font-size: 1rem; }
-    .modal-stars { color: var(--gold); font-size: 1rem; }
-    .modal-close {
-      position: absolute; top: 1rem; right: 1rem; z-index: 2;
-      width: 36px; height: 36px;
-      background: rgba(255,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 50%;
-      color: #fff; font-size: 1rem;
-      display: flex; align-items: center; justify-content: center;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-    .modal-close:hover { background: var(--crimson); border-color: var(--crimson); }
-    .modal-body { padding: 2rem; }
-    .modal-section-title {
-      font-family: var(--ff-display);
-      font-size: 1rem; font-weight: 700;
-      color: var(--gold);
-      margin-bottom: 1rem;
-      display: flex; align-items: center; gap: 0.5rem;
-    }
-    .modal-section-title::after {
-      content: ''; flex: 1; height: 1px;
-      background: var(--border);
-    }
-    .modal-synopsis {
-      font-size: 0.9rem; line-height: 1.8;
-      color: rgba(232,232,240,0.85);
-      margin-bottom: 2rem;
-    }
-    /* Trailer */
-    .trailer-wrap {
-      position: relative; padding-top: 56.25%;
-      border-radius: 8px; overflow: hidden;
-      margin-bottom: 2rem;
-      background: #000;
-    }
-    .trailer-wrap iframe {
-      position: absolute; inset: 0;
-      width: 100%; height: 100%;
-    }
-    /* Reviews */
-    .reviews-list { display: flex; flex-direction: column; gap: 1rem; }
-    .review-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1rem 1.25rem;
-    }
-    .review-header {
-      display: flex; align-items: center; gap: 0.75rem;
-      margin-bottom: 0.5rem;
-    }
-    .review-avatar {
-      width: 32px; height: 32px;
-      border-radius: 50%;
-      background: var(--gold);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0.8rem; font-weight: 700;
-      color: var(--void); flex-shrink: 0;
-    }
-    .review-user { font-weight: 600; font-size: 0.85rem; }
-    .review-date { font-size: 0.75rem; color: var(--muted); margin-left: auto; }
-    .review-stars { color: var(--gold); font-size: 0.8rem; }
-    .review-text { font-size: 0.85rem; color: rgba(232,232,240,0.8); line-height: 1.6; }
-    .review-score-badge {
-      background: var(--gold);
-      color: var(--void);
-      font-size: 0.7rem; font-weight: 700;
-      padding: 0.1rem 0.4rem; border-radius: 3px;
-      margin-left: auto;
-    }
-
-    /* ─── FOOTER ─────────────────────────────────────── */
-    footer {
-      background: var(--deep);
-      border-top: 1px solid var(--border);
-      padding: 3rem 2rem 2rem;
-    }
-    .footer-inner {
-      max-width: 1400px; margin: 0 auto;
-      display: flex; justify-content: space-between; align-items: center;
-      flex-wrap: wrap; gap: 1rem;
-    }
-    .footer-brand {
-      font-family: var(--ff-display);
-      font-size: 1.2rem; font-weight: 900;
-      color: var(--gold);
-    }
-    .footer-note { font-size: 0.8rem; color: var(--muted); }
-    .footer-credits {
-      display: flex; gap: 2rem;
-      font-size: 0.8rem; color: var(--muted);
-    }
-    .footer-credits strong { color: var(--text); }
-
-    /* ─── TOAST ──────────────────────────────────────── */
-    #toast {
-      position: fixed; bottom: 2rem; right: 2rem;
-      background: var(--card);
-      border: 1px solid var(--gold-dim);
-      border-left: 3px solid var(--gold);
-      border-radius: 8px;
-      padding: 0.75rem 1.25rem;
-      font-size: 0.85rem;
-      color: var(--text);
-      z-index: 5000;
-      opacity: 0; transform: translateX(20px);
-      transition: opacity 0.3s, transform 0.3s;
-      pointer-events: none;
-    }
-    #toast.show { opacity: 1; transform: translateX(0); }
-
-    /* ─── UTILS ──────────────────────────────────────── */
-    .gold { color: var(--gold); }
-    .crimson { color: var(--crimson); }
-
-    /* ─── RESPONSIVE ─────────────────────────────────── */
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .nav-inner { padding: 0.75rem 1rem; }
-      .nav-search-wrap { flex: 1; }
-      .hero-content { padding: 0 1rem 4rem; }
-      .stats-inner { gap: 1rem; }
-      .stat-num { font-size: 1.5rem; }
-      .modal-hero-inner { flex-direction: column; }
-      .modal-poster { width: 120px; }
-      .modal-title { font-size: 1.4rem; }
-      .footer-credits { flex-direction: column; gap: 0.5rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+  
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -781,16 +163,11 @@
 <div id="toast"></div>
 
 <!-- Bootstrap JS + jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="[https://code.jquery.com/jquery-3.5.1.min.js](https://code.jquery.com/jquery-3.5.1.min.js)"></script>
+<script src="[https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js](https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js)"></script>
+<script src="[https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js)"></script>
 
 <script>
-/* ═══════════════════════════════════════════════════════
-   CINEMATIC VAULT — Main Application Script
-   Felix  : UI rendering (hero, carousel, detail modal)
-   Fariz  : Data loading (AJAX/XML/JSON), search engine
-   ═══════════════════════════════════════════════════════ */
 
 // ─── DATA EMBED (Disematkan agar file valid & standalone) ─────────
 const AppConfigData = {
@@ -845,8 +222,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Seorang pencuri handal yang bekerja dengan cara menyusup ke mimpi orang lain untuk mencuri rahasia dari alam bawah sadar mereka ditugaskan untuk menanamkan sebuah ide ke dalam benak target — sebuah misi yang hampir mustahil disebut "inception".</synopsis>
     <rating>9.2</rating>
     <votes>2841</votes>
-    <poster>https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg</poster>
-    <trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg](https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/YoHD9XEInc0](https://www.youtube.com/embed/YoHD9XEInc0)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="Raka_Sinema" score="10" date="2024-03-10">Film yang mengubah cara saya melihat sinema. Setiap layer mimpi terasa nyata dan mencekam. Nolan genius.</review>
@@ -863,8 +240,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Saat Bumi menghadapi kepunahan akibat gagal panen dan badai debu, seorang mantan pilot NASA memimpin ekspedisi melewati lubang cacing di dekat Saturnus untuk mencari planet baru yang layak huni bagi umat manusia.</synopsis>
     <rating>8.9</rating>
     <votes>1923</votes>
-    <poster>https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</poster>
-    <trailer>https://www.youtube.com/embed/zSWdZVtXT7E</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg](https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/zSWdZVtXT7E](https://www.youtube.com/embed/zSWdZVtXT7E)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="AstroFilm" score="10" date="2024-04-01">Perjalanan luar angkasa paling emosional yang pernah ada di layar lebar. Adegan docking itu...</review>
@@ -880,8 +257,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Batman menghadapi musuh paling berbahayanya — The Joker — seorang kriminal anarchis yang bertekad menjungkirbalikkan tatanan kota Gotham dan mendorong Batman ke batas moralnya.</synopsis>
     <rating>9.5</rating>
     <votes>3210</votes>
-    <poster>https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg</poster>
-    <trailer>https://www.youtube.com/embed/EXeTwQWrcwY</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg](https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/EXeTwQWrcwY](https://www.youtube.com/embed/EXeTwQWrcwY)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="DCFan_Andro" score="10" date="2024-05-01">Heath Ledger sebagai Joker adalah performa terbaik dalam sejarah film superhero. Tak tertandingi.</review>
@@ -898,8 +275,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Keluarga Ki-taek yang miskin dan menganggur berhasil menyusup masuk ke dalam kehidupan keluarga Park yang sangat kaya, hingga sebuah kejadian tak terduga memicu rangkaian peristiwa gelap yang tak bisa dihentikan.</synopsis>
     <rating>8.8</rating>
     <votes>1756</votes>
-    <poster>https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg</poster>
-    <trailer>https://www.youtube.com/embed/5xH0HfJHsaY</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg](https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/5xH0HfJHsaY](https://www.youtube.com/embed/5xH0HfJHsaY)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="KoreanFilm_ID" score="10" date="2024-02-10">Palme d'Or dan Oscar sekaligus. Bong Joon-ho membuktikan bahwa sinema Asia layak di panggung dunia.</review>
@@ -915,8 +292,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Paul Atreides, seorang pemuda berbakat lahir dari takdir yang jauh melampaui pemahamannya, harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depan keluarganya dan rakyatnya.</synopsis>
     <rating>8.3</rating>
     <votes>1432</votes>
-    <poster>https://image.tmdb.org/t/p/w500/d5NXSklpcKCBqO9MCP7jHL7zFWT.jpg</poster>
-    <trailer>https://www.youtube.com/embed/8g18jFHCLXk</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/d5NXSklpcKCBqO9MCP7jHL7zFWT.jpg](https://image.tmdb.org/t/p/w500/d5NXSklpcKCBqO9MCP7jHL7zFWT.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/8g18jFHCLXk](https://www.youtube.com/embed/8g18jFHCLXk)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="SciFiVault" score="9" date="2024-04-10">Villeneuve berhasil mengadaptasi novel epik yang banyak orang bilang mustahil diadaptasi. Vizualnya luar biasa.</review>
@@ -932,8 +309,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Seorang wanita Tionghoa-Amerika yang kewalahan mengelola laundry-nya terseret ke dalam petualangan aneh di mana ia harus terhubung dengan kehidupan-kehidupan paralel dirinya sendiri untuk menyelamatkan multiverse.</synopsis>
     <rating>8.7</rating>
     <votes>1689</votes>
-    <poster>https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg</poster>
-    <trailer>https://www.youtube.com/embed/wxN1T1uxQ2g</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg](https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/wxN1T1uxQ2g](https://www.youtube.com/embed/wxN1T1uxQ2g)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="MultiverseMind" score="10" date="2024-05-10">Film paling orisinal dalam 10 tahun terakhir. Menangis, tertawa, dan berpikir keras dalam waktu yang sama.</review>
@@ -949,8 +326,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Kisah J. Robert Oppenheimer dan perannya yang menentukan dalam pengembangan bom atom selama Proyek Manhattan, serta konsekuensi moral yang mengikutinya sepanjang hidupnya.</synopsis>
     <rating>9.0</rating>
     <votes>2145</votes>
-    <poster>https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg</poster>
-    <trailer>https://www.youtube.com/embed/uYPbbksJxIg</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg](https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/uYPbbksJxIg](https://www.youtube.com/embed/uYPbbksJxIg)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="HistoryBuff_ID" score="10" date="2024-05-15">Cillian Murphy menghidupkan sosok Oppenheimer dengan cara yang tak bisa dilupakan. IMAX experience wajib.</review>
@@ -966,8 +343,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Seorang bankir yang dihukum atas pembunuhan yang tidak dilakukannya membangun persahabatan mendalam di dalam penjara Shawshank, sambil diam-diam mempersiapkan sesuatu yang akan mengubah segalanya.</synopsis>
     <rating>9.4</rating>
     <votes>3089</votes>
-    <poster>https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg</poster>
-    <trailer>https://www.youtube.com/embed/6hB3S9bIaco</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg](https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/6hB3S9bIaco](https://www.youtube.com/embed/6hB3S9bIaco)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="ClassicFilm_ID" score="10" date="2024-03-01">Film terbaik sepanjang masa menurut IMDb, dan saya setuju. Setiap adegan punya bobot emosional yang luar biasa.</review>
@@ -983,8 +360,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Chihiro, seorang gadis 10 tahun, tersesat ke dunia roh bersama kedua orang tuanya. Untuk menyelamatkan mereka, ia harus bekerja di sebuah pemandian ajaib yang dipenuhi dewa-dewa dan roh dari tradisi Jepang.</synopsis>
     <rating>8.9</rating>
     <votes>1987</votes>
-    <poster>https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg</poster>
-    <trailer>https://www.youtube.com/embed/ByXuk9QqQkk</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg](https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/ByXuk9QqQkk](https://www.youtube.com/embed/ByXuk9QqQkk)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="GhibliFan_ID" score="10" date="2024-04-05">Studio Ghibli di puncak kejayaannya. Film animasi yang tidak hanya untuk anak-anak tapi untuk semua jiwa.</review>
@@ -1000,8 +377,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Bella Baxter, seorang wanita yang dihidupkan kembali oleh seorang ilmuwan eksentrik dengan otak bayi, melarikan diri bersama seorang pengacara untuk menjelajahi dunia dan mendapati kebebasan, kesenangan, dan pemikiran kritis.</synopsis>
     <rating>8.0</rating>
     <votes>1102</votes>
-    <poster>https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXIf4oc0M3kMEBZ.jpg</poster>
-    <trailer>https://www.youtube.com/embed/RlbR5N6veqw</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXIf4oc0M3kMEBZ.jpg](https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXIf4oc0M3kMEBZ.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/RlbR5N6veqw](https://www.youtube.com/embed/RlbR5N6veqw)</trailer>
     <trending>true</trending>
     <reviews>
       <review user="ArthouseVibes" score="9" date="2024-05-20">Emma Stone memberikan performa hidupnya. Visual surrealis Lanthimos tidak ada duanya.</review>
@@ -1017,8 +394,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Di gurun pasca-apokalipsi yang gersang, Max Rockatansky bergabung dengan Imperator Furiosa dalam pelarian maut melintasi padang pasir untuk membebaskan istri-istri seorang tiran kejam bernama Immortan Joe.</synopsis>
     <rating>8.5</rating>
     <votes>1654</votes>
-    <poster>https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg</poster>
-    <trailer>https://www.youtube.com/embed/hEJnMQG9ev8</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg](https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/hEJnMQG9ev8](https://www.youtube.com/embed/hEJnMQG9ev8)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="ActionJunkie_ID" score="10" date="2024-02-20">Film action terbaik abad 21. 2 jam non-stop adrenalin dengan sinematografi yang jaw-dropping.</review>
@@ -1034,8 +411,8 @@ const AppXMLData = `<?xml version="1.0" encoding="UTF-8"?>
     <synopsis>Setelah kematian nenek mereka yang misterius, keluarga Graham mulai mengungkap rahasia kelam yang menghantui silsilah mereka — sesuatu yang jauh lebih gelap dan kuno dari yang bisa mereka bayangkan.</synopsis>
     <rating>8.1</rating>
     <votes>1298</votes>
-    <poster>https://image.tmdb.org/t/p/w500/4O73A1K0A3bxWGLc3H2KEroFLi5.jpg</poster>
-    <trailer>https://www.youtube.com/embed/V6wWKNij_1M</trailer>
+    <poster>[https://image.tmdb.org/t/p/w500/4O73A1K0A3bxWGLc3H2KEroFLi5.jpg](https://image.tmdb.org/t/p/w500/4O73A1K0A3bxWGLc3H2KEroFLi5.jpg)</poster>
+    <trailer>[https://www.youtube.com/embed/V6wWKNij_1M](https://www.youtube.com/embed/V6wWKNij_1M)</trailer>
     <trending>false</trending>
     <reviews>
       <review user="HorrorHead_ID" score="10" date="2024-03-25">Film horor paling menakutkan dalam dekade ini. Bukan jumpscares murahan, tapi terror yang genuine.</review>
@@ -1191,7 +568,7 @@ function initSearch() {
       suggestions.innerHTML = matches.map(f => `
         <div class="suggestion-item" data-id="${f.id}">
           <img class="suggestion-poster" src="${f.poster}" alt="" loading="lazy"
-               onerror="this.src='https://via.placeholder.com/32x48/1a1a2e/gold?text=?'">
+               onerror="this.src='[https://via.placeholder.com/32x48/1a1a2e/gold?text=](https://via.placeholder.com/32x48/1a1a2e/gold?text=)?'">
           <div class="suggestion-info">
             <div class="suggestion-title">${f.title}</div>
             <div class="suggestion-meta">${f.year} · ${f.genre}</div>
@@ -1265,7 +642,7 @@ function renderCard(film) {
       ${film.trending ? '<div class="film-card-badge">Trending</div>' : ''}
       <div class="film-card-rating">⭐ ${film.rating}</div>
       <img class="film-card-poster" src="${film.poster}" alt="${film.title}" loading="lazy"
-           onerror="this.src='https://via.placeholder.com/200x300/1a1a2e/e8c96b?text=${encodeURIComponent(film.title)}'">
+           onerror="this.src='[https://via.placeholder.com/200x300/1a1a2e/e8c96b?text=$](https://via.placeholder.com/200x300/1a1a2e/e8c96b?text=$){encodeURIComponent(film.title)}'">
       <div class="film-card-overlay">
         <div class="film-card-info">
           <div class="film-card-title">${film.title}</div>
