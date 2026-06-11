@@ -611,4 +611,54 @@
       <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
     </reviews>
   </film>
+  <film id="15">
+    <title>The Godfather</title>
+    <year>1972</year>
+    <genre>Drama</genre>
+    <duration>180</duration>
+    <director>Francis Ford Coppola</director>
+    <synopsis>The Godfather is a sprawling crime drama about the Corleone family, a powerful New York Mafia dynasty. Spanning the years 1945 to 1955, it follows the aging patriarch, Don Vito Corleone, and the tragic moral descent of his youngest son, Michael, who transforms from a reluctant war hero into a ruthless crime boss.</synopsis>
+    <rating>8.7</rating>
+    <votes>1298</votes>
+    <poster>https://www.themoviedb.org/t/p/original/gk1IvgCYg6v5H5cps21ILSOrYER.jpg</poster>
+    <trailer>https://www.youtube.com/embed/1x0GpEZnwa8?si=uA-qnMDTHljpXr0t</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="HusadaPemudaTegar" score="10" date="2024-03-25">Saya udah nonton sampai empat kali dan selalu dapat makna baru setiap kali menonton, film ini sangat indah dan berhasil bikin air mata saya mengalir deras kayak keran bocor tak tertutup rapat.</review>
+      <review user="JunainTukangNangis" score="9" date="2024-02-18">Saya setuju banget sama Husada, anime ini bukan sekedar romance picisan, tapi tentang penebusan dosa dan bagaimana kita belajar memaafkan diri sendiri yang penuh dengan kekurangan fatal masa lalu kelam.</review>
+      <review user="TisuBasahAirMata" score="10" date="2024-04-10">Beli tisu segepok habis semua buat ngelap ingus gara-gara sedih ngelihat Shouko dibully sampai alat bantu dengarnya dibuang gitu aja sama anak-anak SD yang otaknya belum jalan bener nakal parah abis.</review>
+      <review user="BawangMerahKupas" score="8" date="2024-01-22">Ueno itu karakter anime cewek paling ngeselin sejagat raya, pengen aku masuk ke dalam tv terus jewer kupingnya biar dia tahu rasa sakitnya jadi orang yang diasingkan tanpa alasan jelas jahatnya minta ampun.</review>
+      <review user="TandaXDiMuka" score="9" date="2024-05-15">Visual tanda silang di wajah orang-orang itu bener-bener jenius buat ngegambarin anxiety-nya si Ishida yang takut menatap dunia karena rasa bersalah yang menghantuinya bertahun-tahun lamanya sendirian tanpa teman mengerti perasaannya.</review>
+      <review user="RotiTawarRotiBakar" score="10" date="2024-03-05">Adegan pas mereka ngasih makan ikan koi di jembatan itu estetik parah, Kyoto Animation emang dewanya bikin gambar pemandangan kota dan air yang jernih memanjakan mata lelah kita melihat keindahan nyata animasinya.</review>
+      <review user="AlatBantuDengarPatah" score="8" date="2024-02-14">Saya sempet mau banting hp pas adegan kembang api di mana Shouko nyoba lompat dari balkon, untung Ishida gercep nyelamatin walau akhirnya dia sendiri yang jatuh hampir mati konyol berkorban nyawa.</review>
+      <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
+      <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
+      <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
+  <film id="16">
+    <title>Five Nights at Freddy's</title>
+    <year>2023</year>
+    <genre>Horror</genre>
+    <duration>110</duration>
+    <director>Francis Ford Coppola</director>
+    <synopsis>A troubled security guard, Mike Schmidt, takes a desperate overnight job at the abandoned Freddy Fazbear's Pizzeria to keep custody of his younger sister. He soon discovers the restaurant's giant animatronic mascots are possessed by the vengeful ghosts of murdered children who roam and kill after dark.</synopsis>
+    <rating>7.3</rating>
+    <votes>472</votes>
+    <poster>https://www.themoviedb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg</poster>
+    <trailer>https://www.youtube.com/embed/0VH9WCFV6XQ?si=T6tJSMm1lBgaeiiR</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="HusadaPemudaTegar" score="10" date="2024-03-25">Saya udah nonton sampai empat kali dan selalu dapat makna baru setiap kali menonton, film ini sangat indah dan berhasil bikin air mata saya mengalir deras kayak keran bocor tak tertutup rapat.</review>
+      <review user="JunainTukangNangis" score="9" date="2024-02-18">Saya setuju banget sama Husada, anime ini bukan sekedar romance picisan, tapi tentang penebusan dosa dan bagaimana kita belajar memaafkan diri sendiri yang penuh dengan kekurangan fatal masa lalu kelam.</review>
+      <review user="TisuBasahAirMata" score="10" date="2024-04-10">Beli tisu segepok habis semua buat ngelap ingus gara-gara sedih ngelihat Shouko dibully sampai alat bantu dengarnya dibuang gitu aja sama anak-anak SD yang otaknya belum jalan bener nakal parah abis.</review>
+      <review user="BawangMerahKupas" score="8" date="2024-01-22">Ueno itu karakter anime cewek paling ngeselin sejagat raya, pengen aku masuk ke dalam tv terus jewer kupingnya biar dia tahu rasa sakitnya jadi orang yang diasingkan tanpa alasan jelas jahatnya minta ampun.</review>
+      <review user="TandaXDiMuka" score="9" date="2024-05-15">Visual tanda silang di wajah orang-orang itu bener-bener jenius buat ngegambarin anxiety-nya si Ishida yang takut menatap dunia karena rasa bersalah yang menghantuinya bertahun-tahun lamanya sendirian tanpa teman mengerti perasaannya.</review>
+      <review user="RotiTawarRotiBakar" score="10" date="2024-03-05">Adegan pas mereka ngasih makan ikan koi di jembatan itu estetik parah, Kyoto Animation emang dewanya bikin gambar pemandangan kota dan air yang jernih memanjakan mata lelah kita melihat keindahan nyata animasinya.</review>
+      <review user="AlatBantuDengarPatah" score="8" date="2024-02-14">Saya sempet mau banting hp pas adegan kembang api di mana Shouko nyoba lompat dari balkon, untung Ishida gercep nyelamatin walau akhirnya dia sendiri yang jatuh hampir mati konyol berkorban nyawa.</review>
+      <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
+      <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
+      <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
 </films>
