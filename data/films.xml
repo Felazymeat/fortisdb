@@ -506,7 +506,7 @@
     <synopsis>Setelah kematian nenek mereka yang misterius, keluarga Graham mulai mengungkap rahasia kelam yang menghantui silsilah mereka — sesuatu yang jauh lebih gelap dan kuno dari yang bisa mereka bayangkan.</synopsis>
     <rating>8.1</rating>
     <votes>1298</votes>
-    <poster>https://image.tmdb.org/t/p/w1280/4GFPuL14eXi66V96xBWY73Y9PfR.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/original/4GFPuL14eXi66V96xBWY73Y9PfR.jpg</poster>
     <trailer>https://www.youtube.com/embed/V6wWKNij_1M</trailer>
     <trending>false</trending>
     <reviews>
@@ -534,7 +534,7 @@
     <synopsis>After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.</synopsis>
     <rating>8.1</rating>
     <votes>1298</votes>
-    <poster>https://image.tmdb.org/t/p/w1280/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg</poster>
+    <poster>https://image.tmdb.org/t/p/original/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg</poster>
     <trailer>https://www.youtube.com/embed/HKZpuG_ezvY</trailer>
     <trending>true</trending>
     <reviews>
@@ -659,6 +659,67 @@
       <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
       <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
       <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
+    <film id="17">
+    <title>Rear Window</title>
+    <year>1954</year>
+    <genre>Thriller</genre>
+    <duration>112</duration>
+    <director>Alfred Hitchcock</director>
+    <synopsis>Seorang fotografer yang terbaring di kursi roda karena kaki patah menghabiskan waktu dengan mengintip tetangganya dari jendela belakang apartemennya. Kecurigaannya muncul ketika ia menduga seorang tetangga telah membunuh istrinya.</synopsis>
+    <rating>8.9</rating>
+    <votes>1876</votes>
+    <poster>https://image.tmdb.org/t/p/original/o9U7kbBLY1jtis5dnEc2V1qRsvk.jpg</poster>
+    <trailer>https://www.youtube.com/embed/m01YktiEZCw</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="MataIntipTembokBolong" score="10" date="2024-03-20">Gila ini film ajarin saya kalau jadi tukang ngintip tetangga itu ternyata bisa ngebantu kasus pembunuhan, tapi hati-hati nanti malah diliatin balik sama si pembunuhnya yang galak.</review>
+      <review user="KakiDemasKejepit" score="9" date="2024-04-12">James Stewart kalau ngeliatin orang pakai teropong muka polosnya itu lucu banget, padahal lagi ngintip pembunuhan tapi ekspresinya kayak bocah lagi lihatin kucing kawin di atas genteng.</review>
+      <review user="KeranjangAnyamanPecah" score="10" date="2024-02-28">Adegan terakhir pas mata si pembunuh muncul tiba-tiba di balik pintu bikin jantung saya coplosat kayak bakso yang kecebur dari mangkok panas waktu mau dimakan pakai kuah.</review>
+      <review user="KevinKusumaputri" score="8" date="2024-05-05">Grace Kelly di sini cantiknya kebangetan sampai-sampai saya lupa kalau film ini sebenarnya cerita tentang pembunuhan, jadi sibuk lihat bajunya yang gonta-ganti terus setiap datang berkunjung.</review>
+      <review user="TeropongKunoBerembun" score="9" date="2024-01-18">Alfred Hitchcock emang pantas dijuluki master of suspense, saya sampai keringetan dingin padahal adegannya cuma orang di kamar mandi sikat gigi sambil cekikikan aneh.</review>
+      <review user="KursiRodaRemBlong" score="10" date="2024-03-08">Waktu si fotografer nyoba nyelamatin pacarnya dari apartemen si pembunuh pake kursi roda, itu adegan paling deg-degan melebihi pas saya main game puzzle di HP yang baterainya tinggal 5%.</review>
+      <review user="BurungKutilangMabuk" score="9" date="2024-04-22">Sepanjang film kita cuma lihat dari sudut pandang jendela itu doang, tapi suasananya berasa kayak lagi main petak umpet seumur hidup sama tetangga sebelah yang penuh misteri.</review>
+      <review user="BantalGulingGigit" score="8" date="2024-02-14">Menyaksikan pasangan suami istri di seberang sana yang lagi panas-panasnya berantem lebih seru daripada nonton sinetron tukang ojek pura-pura kaya tapi ternyata anak sultan level dewa.</review>
+      <review user="LampuKamarTidurKedip" score="10" date="2024-05-20">Hitchcock nggak perlu adegan darah-darahan atau ledakan bom untuk bikin tegang, cukup dengan kilatan lampu dan suara patahan tulang saja sudah cukup bikin merinding sepanjang malam.</review>
+      <review user="TeleskopRusakNempel" score="9" date="2024-01-30">Setelah nonton ini saya jadi waspada kalau lihat tetangga bawa pisau dan koper besar di tengah malam, siap-siap telepon polisi walau cuma bawa pisau buat motong pepaya.</review>
+      <review user="PlecitNyasarKeDapur" score="10" date="2024-03-15">Si detektif polisi yang nyebelin itu beneran nguji kesabaran, udah dikasih tahu ada pembunuhan malah bilang "Jangan jualan cerita murahan, pak".</review>
+      <review user="KameraFlashPatah" score="8" date="2024-04-05">Idenya brilliant banget: orang cacat sementara cuma bisa nonton kehidupan orang lain dari jendela, eh malah nemuin mayat dikubur di taman bunga belakang rumah.</review>
+      <review user="KotakPerhiasanPenuhUlar" score="9" date="2024-01-25">Akhirnya si pembunuh sadar lagi diintip lalu balik nyerang ke apartemen si fotografer, untung ada lampu kilat kamera butut yang dipakai buat membutakan matanya.</review>
+      <review user="SelimutBuluDomba" score="10" date="2024-05-10">Film jadul tahun 1954 tapi grafisnya tetap terlihat oke, apalagi set apartemen yang megah itu detail banget sampai ada miniatur taman mini di dalam ruangan.</review>
+      <review user="OrangCitayam" score="9" date="2024-02-22">Kalau saya jadi Grace Kelly, pasti udah mental dari balkon lantai dua kabur liat si pembunuh bengis dateng bawa pisau cukur tajam mengkilap siap menggorok leher orang.</review>
+    </reviews>
+  </film>
+
+  <film id="18">
+    <title>The Green Mile</title>
+    <year>1999</year>
+    <genre>Drama</genre>
+    <duration>189</duration>
+    <director>Frank Darabont</director>
+    <synopsis>Kisah para sipir penjara di blok hukuman mati yang memiliki "jalan hijau" menuju kursi listrik. Kehidupan mereka berubah ketika seorang narapidana raksasa berkulit hitam dengan kekuatan supranatural tiba di penjara.</synopsis>
+    <rating>9.1</rating>
+    <votes>2678</votes>
+    <poster>https://image.tmdb.org/t/p/original/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg</poster>
+    <trailer>https://www.youtube.com/embed/Ki4haFrqSrw</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="KursiListrikPanasBanget" score="10" date="2024-04-02">Sumpah ini film paling bikin nangis sepanjang masa, saya pakai handuk buat ngelap air mata karena tisu habis buat ngebungkus gorengan tadi siang.</review>
+      <review user="TikusKecilJalanJalan" score="9" date="2024-03-18">Mr. Jingles si tikus aja bisa bikin haru, apalagi pas dia mati lalu dihidupin lagi sama John Coffey, tikusnya bisa acting lebih bagus dari sinetron jam 7 malam.</review>
+      <review user="BusaKaretBasah" score="10" date="2024-02-25">Tom Hanks nggak cuma bisa main kapal selam dan astronot, di sini dia jadi sipir yang baik hati sampe saya pengen masuk penjara kalau dijagain sama bapak-bapak berwajah sedih ini.</review>
+      <review user="SponsKeringRusak" score="8" date="2024-05-01">Percaya nggak, sepanjang film saya nggak berani ke toilet karena takut ketinggalan adegan John Coffey nyembuhin orang cuma pakai tangan gede yang hangat kayak selimut di puncak gunung.</review>
+      <review user="MasyaAllah" score="9" date="2024-01-12">John Coffey nulis namanya sama dengan minuman tapi beda ejaan, dan saya yakin dia minuman favorit Tuhan karena malaikat aja nyerah bawa dia pulang ke surga.</review>
+      <review user="ToiletMampetSelalu" score="10" date="2024-04-20">Percy Wetmore itu karakter paling menyebalkan di sejarah perfilman, muka bocah tapi jahatnya minta ampun, pengen saya masukin ke kursi listrik walau cuma nonton di rumah.</review>
+      <review user="Evolto" score="9" date="2024-03-05">Adegan Wild Bill ngejambak sipir sambil ketawa setan itu bikin bulu kuduk merinding, tapi tetap aja dia kalah sama John Coffey yang cuma sentuh pipinya langsung lemes kayak kue basah.</review>
+      <review user="EmberCuciPiring" score="10" date="2024-02-10">Ketika John Coffey nyembuhin istri bos penjara dari tumor otak, saya nangis bombay plus ingus meler sampai tetangga sebelah ngetok pintu nanya "kamu kenapa, dikirimin STNK telat?"</review>
+      <review user="KainMoriPutih" score="8" date="2024-05-15">Durasi tiga jam nggak kerasa sama sekali karena setiap adegan punya makna yang dalem, beda sama presentasi proyek kelompok yang 15 menit aja berasa satu semester.</review>
+      <review user="KacangKupasBerserakan" score="9" date="2024-01-28">Saya masih kepikiran kalimat "Saya lelah, bos. Saya lelah berjalan di dunia sendirian membawa rasa sakit orang lain" sampai sekarang pas lagi ngantri bayar listrik.</review>
+      <review user="KarpetJalanHijau" score="10" date="2024-04-08">Frank Darabont hebat banget bikin film penjara tapi tetap humanis, nggak ada adegan kabur pakai sendok ngebor tembok kayak di Shawshank, ini mah kaburnya ke sorga.</review>
+      <review user="TopiPetaniTersangkut" score="9" date="2024-03-22">Michael Clarke Duncan yang main John Coffey itu badannya segede gajah tapi hatinya lebih lembut dari kapas, pas dia nangis saya ikutan nangis guling-guling di kasur.</review>
+      <review user="BantalMandiAirMata" score="10" date="2024-02-18">Akhir cerita Paul Edgecomb yang jadi saksi hidup ratusan tahun karena kekuatan John Coffey itu bikin saya merenung, kayaknya kalau hidup lama lebih enak mati aja biar nggak lihat orang kesayangan pergi terus.</review>
+      <review user="GulingBututDitusuk" score="8" date="2024-05-05">Film ini mengajarkan bahwa keajaiban bisa datang dari tempat yang paling tidak kita sangka, bahkan dari tangan seorang raksasa yang duduk di kursi listrik karena tidak membela diri.</review>
+      <review user="PayungBocorDimanaMana" score="9" date="2024-01-22">Saya sampai beli tisu satu dus abis nonton ini, dan saya yakin sampai tua nanti kalau ingat adegan John Coffey nonton film Top Hat, hati saya tetap akan terenyuh. </review>
     </reviews>
   </film>
 </films>
