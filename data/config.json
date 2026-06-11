@@ -1,15 +1,15 @@
 {
   "genres": [
-    { "id": "all", "label": "Semua Genre", "icon": "🎬" },
-    { "id": "Sci-Fi", "label": "Sci-Fi", "icon": "🚀" },
-    { "id": "Action", "label": "Action", "icon": "💥" },
-    { "id": "Drama", "label": "Drama", "icon": "🎭" },
-    { "id": "Thriller", "label": "Thriller", "icon": "🔪" },
-    { "id": "Horror", "label": "Horror", "icon": "👻" },
-    { "id": "Animation", "label": "Animasi", "icon": "✨" }
+    { "id": "all", "label": "All Genre", "icon": "" },
+    { "id": "Sci-Fi", "label": "Sci-Fi", "icon": "" },
+    { "id": "Action", "label": "Action", "icon": "" },
+    { "id": "Drama", "label": "Drama", "icon": "" },
+    { "id": "Thriller", "label": "Thriller", "icon": "" },
+    { "id": "Horror", "label": "Horror", "icon": "" },
+    { "id": "Animation", "label": "Animation", "icon": "" }
   ],
   "siteConfig": {
-    "name": "Cinematic Vault",
+    "name": "Fortis DB",
     "tagline": "Temukan Film, Rasakan Cerita",
     "heroTitle": "Arsip Sinema\nTerlengkap",
     "heroSubtitle": "Ribuan film dari berbagai era dan genre. Rating jujur dari sesama penonton.",
@@ -34,6 +34,12 @@
       "filmId": 5,
       "headline": "I must not fear.",
       "sub": "Epic visual terbaik dekade ini hadir di Arrakis — planet paling berbahaya di galaksi.",
+      "bg": "linear-gradient(135deg, #0a0a0f 0%, #1a0f0a 50%, #2a1505 100%)"
+    },
+    {
+      "filmId": 14,
+      "headline": "Sometimes the answer is as simple as learning to listen.",
+      "sub": "Prepare to be moved and inspired by this poignant story of redemption, forgiveness, and the power of empathy.",
       "bg": "linear-gradient(135deg, #0a0a0f 0%, #1a0f0a 50%, #2a1505 100%)"
     }
   ]
