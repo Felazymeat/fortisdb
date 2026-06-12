@@ -33,76 +33,69 @@
       }
 
       function loadConfig() {
-        return new Promise((resolve, reject) => {
-          $.ajax({
+        return $.ajax({
             url: "data/config.json",
             method: "GET",
-            dataType: "json",
-            success(data) {
-              App.config = data;
-              document.getElementById("stat-films").textContent =
-                data.siteConfig.totalFilms;
-              document.getElementById("stat-reviews").textContent =
-                data.siteConfig.totalReviews.toLocaleString();
-              document.getElementById("stat-users").textContent =
-                data.siteConfig.totalUsers.toLocaleString();
-              buildGenrePills(data.genres);
-              resolve(data);
-            },
-            error() {
-              reject(
-                "Gagal memuat config.json (Pastikan Anda menggunakan Local Web Server)",
-              );
-            },
-          });
+            dataType: "json"
+        })
+        .then(function(data) {
+            App.config = data;
+            document.getElementById("stat-films").textContent = data.siteConfig.totalFilms;
+            document.getElementById("stat-reviews").textContent = data.siteConfig.totalReviews.toLocaleString();
+            document.getElementById("stat-users").textContent = data.siteConfig.totalUsers.toLocaleString();
+            buildGenrePills(data.genres);
+            return data;
+        })
+        .catch(function() {
+            throw "Gagal memuat config.json (Pastikan Anda menggunakan Local Web Server)";
         });
       }
 
       function loadFilms() {
-        return new Promise((resolve, reject) => {
-          $.ajax({
+        return $.ajax({
             url: "data/films.xml",
             method: "GET",
-            dataType: "xml",
-            success(xml) {
-              const $films = $(xml).find("film");
-              const parsed = [];
-              $films.each(function () {
-                const $f = $(this);
-                const reviews = [];
-                $f.find("review").each(function () {
-                  reviews.push({
-                    user: $(this).attr("user"),
-                    score: parseInt($(this).attr("score")),
-                    date: $(this).attr("date"),
-                    text: $(this).text().trim(),
-                  });
+            dataType: "xml"
+        })
+        .then(function(xml) {
+            const $films = $(xml).find("film");
+            const parsed = [];
+            
+            $films.each(function () {
+            const $f = $(this);
+            const reviews = [];
+            
+            $f.find("review").each(function () {
+                reviews.push({
+                user: $(this).attr("user"),
+                score: parseInt($(this).attr("score")),
+                date: $(this).attr("date"),
+                text: $(this).text().trim(),
                 });
-                parsed.push({
-                  id: parseInt($f.attr("id")),
-                  title: $f.find("title").text(),
-                  year: parseInt($f.find("year").text()),
-                  genre: $f.find("genre").text(),
-                  duration: parseInt($f.find("duration").text()),
-                  director: $f.find("director").text(),
-                  synopsis: $f.find("synopsis").text(),
-                  rating: parseFloat($f.find("rating").text()),
-                  votes: parseInt($f.find("votes").text()),
-                  poster: $f.find("poster").text(),
-                  trailer: $f.find("trailer").text(),
-                  trending: $f.find("trending").text() === "true",
-                  reviews: reviews,
-                });
-              });
-              App.films = parsed;
-              resolve(parsed);
-            },
-            error() {
-              reject(
-                "Gagal memuat films.xml (Pastikan Anda menggunakan Local Web Server)",
-              );
-            },
-          });
+            });
+            
+            parsed.push({
+                id: parseInt($f.attr("id")),
+                title: $f.find("title").text(),
+                year: parseInt($f.find("year").text()),
+                genre: $f.find("genre").text(),
+                duration: parseInt($f.find("duration").text()),
+                director: $f.find("director").text(),
+                synopsis: $f.find("synopsis").text(),
+                rating: parseFloat($f.find("rating").text()),
+                votes: parseInt($f.find("votes").text()),
+                poster: $f.find("poster").text(),
+                trailer: $f.find("trailer").text(),
+                trending: $f.find("trending").text() === "true",
+                reviews: reviews,
+            });
+            });
+            
+            App.films = parsed;
+            return parsed;
+        })
+        .catch(function() {
+            throw "Gagal memuat films.xml (Pastikan Anda menggunakan Local Web Server)";
         });
       }
 
@@ -395,6 +388,7 @@
 
         const modal = document.getElementById("film-modal");
         modal.classList.add("show");
+        modal.scrollTo(0,0);
         document.body.style.overflow = "hidden";
       }
 
