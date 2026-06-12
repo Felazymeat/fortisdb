@@ -1,18 +1,15 @@
 {
   "genres": [
-    { "id": "all", "label": "All Genre", "icon": "" },
-    { "id": "Sci-Fi", "label": "Sci-Fi", "icon": "" },
-    { "id": "Action", "label": "Action", "icon": "" },
-    { "id": "Drama", "label": "Drama", "icon": "" },
-    { "id": "Thriller", "label": "Thriller", "icon": "" },
-    { "id": "Horror", "label": "Horror", "icon": "" },
-    { "id": "Animation", "label": "Animation", "icon": "" }
+    { "id": "all", "label": "All Genre"},
+    { "id": "Sci-Fi", "label": "Sci-Fi"},
+    { "id": "Action", "label": "Action"},
+    { "id": "Drama", "label": "Drama"},
+    { "id": "Thriller", "label": "Thriller"},
+    { "id": "Horror", "label": "Horror"},
+    { "id": "Animation", "label": "Animation"}
   ],
   "siteConfig": {
     "name": "Fortis DB",
-    "tagline": "Temukan Film, Rasakan Cerita",
-    "heroTitle": "Arsip Sinema\nTerlengkap",
-    "heroSubtitle": "Ribuan film dari berbagai era dan genre. Rating jujur dari sesama penonton.",
     "totalFilms": 17,
     "totalReviews": 439,
     "totalUsers": 500

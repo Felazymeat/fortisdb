@@ -112,7 +112,7 @@
           .map(
             (g) => `
     <button class="genre-pill ${g.id === "all" ? "active" : ""}" data-genre="${g.id}">
-      ${g.icon} ${g.label}
+      ${g.label}
     </button>
   `,
           )
