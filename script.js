@@ -429,7 +429,7 @@
       window.addEventListener("scroll", () => {
         document
           .getElementById("main-nav")
-          .classList.toggle("scrolled", window.scrollY > 80);
+          .classList.toggle("scrolled", window.scrollY > 300);
         const sections = ["hero", "trending", "catalogue"];
         let current = "hero";
         sections.forEach((id) => {
