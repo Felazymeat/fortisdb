@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films>
+  <film id="1">
+    <title>Inception</title>
+    <year>2010</year>
+    <genre>Sci-Fi</genre>
+    <duration>148</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Seorang pencuri handal yang bekerja dengan cara menyusup ke mimpi orang lain untuk mencuri rahasia dari alam bawah sadar mereka ditugaskan untuk menanamkan sebuah ide ke dalam benak target — sebuah misi yang hampir mustahil disebut "inception".</synopsis>
+    <rating>9.2</rating>
+    <votes>2841</votes>
+    <poster>https://image.tmdb.org/t/p/original/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg</poster>
+    <trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="BapakTejoKoprol" score="10" date="2024-03-10">Sumpah ini film bikin otakku melilit kayak mi instan yang direbus terlalu lama sampai menyatu sama pancinya, tapi seru banget parah.</review>
+      <review user="SendalJepitPutus" score="9" date="2024-02-28">Nonton ini sambil makan gorengan, eh gorengannya malah ikut masuk ke alam mimpi lapis ketiga dan berubah jadi bakwan raksasa menakutkan.</review>
+      <review user="KucingNgesot" score="9" date="2024-01-15">Bangun tidur bukannya seger malah mikir ini dunia nyata atau jangan-jangan aku masih jadi babu di mimpi majikanku yang tidur siang.</review>
+      <review user="TukangSedotWC_Astral" score="8" date="2024-03-12">Christopher Nolan kalau bikin film emang suka ngajak ribut pikiran penonton, untung bawa tolak angin jadi pusingnya agak mendingan pas keluar.</review>
+      <review user="CicakBerdahak" score="10" date="2024-04-01">Gasingnya muter terus kayak cicilan KPR yang nggak lunas-lunas padahal udah kerja banting tulang siang malam dari zaman dinosaurus masih hidup.</review>
+      <review user="NasiBungkusKaretDua" score="9" date="2024-03-05">Saya sampai lupa jalan pulang abis nonton ini, merasa terjebak di dalam limbo bersama dengan kenangan mantan yang sudah bahagia duluan.</review>
+      <review user="EsTehAngetTawar" score="10" date="2024-02-14">Plotnya maju mundur atas bawah kayak roller coaster di pasar malam yang mesinnya udah karatan tapi tetap dinaikin karena penasaran sensasinya.</review>
+      <review user="MartabakKejuLumer" score="8" date="2024-05-11">Leo DiCaprio ganteng banget walau mukanya kelihatan stres mikirin cara bangunin orang, padahal tinggal disiram air seember pasti langsung kaget bangun.</review>
+      <review user="GalonBocorAlus" score="7" date="2024-01-20">Menyelam ke alam bawah sadar orang itu bahaya, mending menyelam ke lautan samudera sekalian nyari harta karun spongebob yang hilang dicuri.</review>
+      <review user="KipasAnginMuter" score="9" date="2024-04-18">Kenapa ya mereka nggak kepikiran buat mimpiin uang sekarung aja daripada repot-repot nyuri ide perusahaan, kan lumayan buat modal buka warung.</review>
+      <review user="RemotTVAjaib" score="10" date="2024-05-02">Visual efeknya melipat-lipat kota Paris kayak melipat baju cucian yang numpuk tiga minggu nggak disetrika gara-gara sibuk main game online terus.</review>
+      <review user="SikatGigiBotak" score="8" date="2024-03-22">Akting Joseph Gordon-Levitt pas adegan gravitasi nol itu keren abis, pasti dia sering latihan salto di atas kasur kapuk zaman dulu.</review>
+      <review user="SabunBolongTengah" score="9" date="2024-02-08">Film ini mengajarkan kita bahwa tidur itu penting, tapi kalau tidurnya di dalam tidur lagi mending mendaftar jadi anggota rebahan abadi.</review>
+      <review user="GayungPecahSebelah" score="10" date="2024-04-25">Soundtrack dari Hans Zimmer itu loh yang bikin jantung berdebar kencang melebihi saat ditagih utang sama ibu kos di akhir bulan.</review>
+      <review user="HandukBasahBau" score="8" date="2024-01-30">Setelah nonton Inception, saya langsung beli gasing di pasar buat ngecek apakah saya lagi mimpi atau emang beneran jomblo ngenes aslinya.</review>
+      <review user="BantalBauIler" score="9" date="2024-05-15">Konsep pencurian ide ini brilian banget, coba kalau bisa diterapkan buat nyuri jawaban ujian pas zaman SMA dulu, pasti nilaiku bagus.</review>
+      <review user="GulingGulingan" score="10" date="2024-03-18">Menikmati film ini butuh konsentrasi tingkat tinggi setara dengan saat mencoba memasukkan benang ke dalam lubang jarum sambil naik motor ojek.</review>
+      <review user="KasurEmpukSekali" score="7" date="2024-02-22">Si Tom Hardy di sini karismanya tumpah-tumpah, bikin saya pengen ikut diajak masuk ke dalam mimpinya walau harus jadi tukang sapu.</review>
+      <review user="JemuranTerbang" score="9" date="2024-04-09">Sayangnya di dunia nyata kita nggak punya alat koper ajaib yang bisa nyambungin selang buat mabar mimpi bareng temen di pos.</review>
+      <review user="GentengBocorTerus" score="10" date="2024-01-10">Akhir ceritanya beneran bikin emosi jiwa raga, sengaja banget dipotong pas gasingnya goyang, dasar sutradara tukang ngeprank penonton yang udah duduk.</review>
+      <review user="PintuMasaDepan" score="8" date="2024-05-20">Pas mereka nyemplung ke dalam air di dalam van putih itu, saya ikutan nahan napas sampai muka biru kayak avatar Aang.</review>
+      <review user="JendelaKetutupRapat" score="9" date="2024-03-28">Idenya nanam pikiran ini ngeri juga, bayangin kalau ada yang nanam ide supaya saya suka makan pare mentah setiap hari selamanya.</review>
+      <review user="KunciGembokRusak" score="10" date="2024-02-15">Saya rasa film ini adalah konspirasi pembuat obat sakit kepala supaya dagangan mereka laris diborong sama penonton yang otaknya ngebul parah.</review>
+      <review user="HelmBogoKekecilan" score="7" date="2024-04-30">Kenapa mimpi mereka selalu action tembak-tembakan ya, padahal kalau saya yang mimpi paling cuma dikejar anjing tetangga sampai celana robek semua.</review>
+      <review user="JaketKulitBuaya" score="9" date="2024-01-05">Marion Cotillard meranin istrinya Leo dengan sangat menjiwai, sampai saya ikut merinding melihat tatapan matanya yang kosong namun penuh dendam kesumat.</review>
+      <review user="SepatuKudaLumping" score="10" date="2024-05-08">Film berat yang katanya cocok ditonton pas lagi santai, eh malah bikin nggak santai karena harus mikir keras bedain dunia asli.</review>
+      <review user="KaosKakiBolongJempol" score="8" date="2024-03-14">Kalau saya punya totem, mungkin bentuknya adalah sendok warteg bengkok, kalau dia bisa lurus sendiri berarti saya lagi mimpi makan gratis.</review>
+      <review user="CelanaSontogCingkrang" score="9" date="2024-02-25">Bangun-bangun di pesawat dengan perasaan lega itu enak banget, apalagi kalau sebelahnya bukan bapak-bapak yang ngoroknya lebih keras dari suara knalpot.</review>
+      <review user="BajuPartaiLuntur" score="10" date="2024-04-12">Coba aja misi inception dilakukan di mimpi saya, pasti pada nyasar karena mimpi saya isinya cuma absurditas nggak jelas ketemu alien.</review>
+      <review user="TopiMiringSebelah" score="7" date="2024-01-28">Film yang membuat saya merasa pintar kalau bisa paham ceritanya, padahal aslinya cuma pura-pura ngangguk biar kelihatan keren di depan gebetan.</review>
+      <review user="KacamataKudaPoni" score="9" date="2024-05-25">Penampilan Cillian Murphy di sini cukup kasihan ya, jadi anak orang kaya tapi harus dikadalin sama sekumpulan penyusup mimpi profesional jahat.</review>
+      <review user="DompetKosongMelompong" score="10" date="2024-03-08">Sinematografi luar biasa, apalagi pas adegan salju di benteng itu, berasa pengen ikut main lempar bola salju tapi takut kena peluru.</review>
+      <review user="UangKoinKarat" score="8" date="2024-02-12">Menonton Inception untuk yang kesepuluh kalinya dan masih tetap saja menemukan hal baru yang bikin otak saya berteriak minta tolong terus.</review>
+      <review user="KertasBungkusGorengan" score="9" date="2024-04-22">Konsep waktu yang berjalan lebih lambat di setiap lapisan mimpi itu bikin saya kepikiran buat tidur aja kalau nunggu antrian bank.</review>
+      <review user="PlastikKresekHitam" score="10" date="2024-01-18">Sungguh sebuah mahakarya sinema modern yang membuat semua film sci-fi lain terasa seperti sinetron azab yang tayang setiap siang di televisi.</review>
+      <review user="BotolKecapManis" score="7" date="2024-05-10">Nggak ngerti lagi sama jalan pikiran Nolan, ini orang pasti kalau tidur mimpinya rumus fisika kuantum campur resep rahasia krabby patty.</review>
+      <review user="PiringTerbangUFO" score="9" date="2024-03-02">Menegangkan dari detik pertama sampai terakhir, nggak ada waktu buat ke toilet padahal udah nahan kencing sampai rasanya kandung kemih meledak.</review>
+      <review user="MangkokAyamJago" score="10" date="2024-02-20">Coba aja ada aplikasi smartphone yang bisa buat nyetel mimpi sesuai keinginan kita, pasti nggak ada lagi overthinking sebelum tidur malam.</review>
+      <review user="SendokBebekPlastik" score="8" date="2024-04-05">Kenapa ya mereka nggak bikin lapisan mimpi keempat yang isinya cuma makan gratis sepuasnya tanpa takut gendut atau kena kolesterol tinggi.</review>
+      <review user="GarpuTalaSumbing" score="9" date="2024-01-12">Setiap karakter punya perannya masing-masing yang sangat krusial, mirip kayak tukang masak, tukang cuci piring, dan kasir di warung padang langganan.</review>
+      <review user="SumpitBambuKuning" score="10" date="2024-05-28">Elliot Page mainnya bagus banget sebagai arsitek mimpi, saya jadi pengen direkrut buat bikin labirin dari susunan batako di halaman belakang.</review>
+      <review user="GelasKacaPecah" score="7" date="2024-03-25">Meskipun udah tua, film ini tetap relevan dan grafisnya nggak kalah sama film keluaran tahun ini yang budgetnya fantastis tapi membosankan.</review>
+      <review user="SedotanPlastikBekas" score="9" date="2024-02-10">Kayaknya butuh asupan gizi yang cukup sebelum nonton film ini biar otak bisa mencerna semua plot twist yang datang seperti tagihan.</review>
+      <review user="SapuLidiPatah" score="10" date="2024-04-15">Akhirnya nemu film yang bisa bikin saya diem fokus tanpa main hp sedikitpun, saking takutnya ketinggalan dialog penting yang merusak pemahaman.</review>
+      <review user="PengkiBerdébu" score="8" date="2024-01-25">Rating sempurna dari saya pokoknya, nggak peduli orang bilang terlalu berat atau apa, yang jelas ini film bikin merenung arti kehidupan.</review>
+    </reviews>
+  </film>
+
+  <film id="2">
+    <title>Interstellar</title>
+    <year>2014</year>
+    <genre>Sci-Fi</genre>
+    <duration>169</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Saat Bumi menghadapi kepunahan akibat gagal panen dan badai debu, seorang mantan pilot NASA memimpin ekspedisi melewati lubang cacing di dekat Saturnus untuk mencari planet baru yang layak huni bagi umat manusia.</synopsis>
+    <rating>8.9</rating>
+    <votes>1923</votes>
+    <poster>https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</poster>
+    <trailer>https://www.youtube.com/embed/zSWdZVtXT7E</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="AstronotSasar" score="10" date="2024-04-01">Perjalanan luar angkasa paling emosional, bikin saya nangis bombay sambil meluk guling karena ingat jemuran belum diangkat padahal udah mau hujan.</review>
+      <review user="BintangKejoraJatuh" score="9" date="2024-03-20">Akurasi ilmiahnya mengagumkan, Kip Thorne layak dapat Nobel, sedangkan saya layak dapat piring cantik karena berhasil nonton sampai habis tanpa ketiduran.</review>
+      <review user="PlanetMarsPindah" score="10" date="2024-02-15">Melihat adegan ombak raksasa di planet air itu bikin saya auto mual kayak abis naik wahana kora-kora di Dufan tiga kali.</review>
+      <review user="LubangCacingGeli" score="8" date="2024-05-10">Gila sih relativitas waktu di film ini, sejam di sana sama dengan tujuh tahun di bumi, cocok buat orang yang hobi ngaret.</review>
+      <review user="SatelitNyasar" score="9" date="2024-01-22">Matthew McConaughey akting nangisnya epik banget pas lihat video anaknya, saya ikutan sedih walau aslinya lagi makan kuaci rasa balado pedas.</review>
+      <review user="GandumGosong" score="10" date="2024-04-18">Badai debu di awal film bikin saya pengen buru-buru ambil sapu sama pengki buat bersihin layar TV kesayangan yang baru dikredit.</review>
+      <review user="TarsTersandung" score="9" date="2024-03-05">Robot TARS itu bentuknya kayak kulkas balok berjalan tapi selera humornya lebih bagus daripada teman tongkrongan saya yang garingnya minta ampun.</review>
+      <review user="RoketBocor" score="8" date="2024-02-28">Musik Hans Zimmer pas adegan docking itu beneran bikin bulu kuduk merinding sampai rasanya pengen ikutan muter-muter di tengah ruang tamu.</review>
+      <review user="GravitasiNol" score="10" date="2024-05-22">Coba aja lubang cacing beneran ada di tol Jagorawi, pasti saya nggak perlu kena macet berjam-jam tiap mau berangkat kerja pagi.</review>
+      <review user="DimensiKelima" score="9" date="2024-01-10">Masuk ke black hole bukannya mati malah masuk ke belakang rak buku anak sendiri, sungguh sebuah plot twist tingkat dewa abadi.</review>
+      <review user="JamTanganMati" score="10" date="2024-04-12">Pesan moralnya adalah cinta melampaui ruang dan waktu, tapi cicilan motor tetap harus dibayar tepat waktu sebelum ditarik sama debt collector.</review>
+      <review user="JagungRebusBasi" score="8" date="2024-03-15">Ternyata hantu yang selama ini gangguin kamar anaknya itu bapaknya sendiri dari dimensi lain, pantesan dukun kampung nggak ada yang mempan.</review>
+      <review user="PakaianLuarAngkasa" score="9" date="2024-02-05">Nonton film ini bikin saya sadar betapa kecilnya manusia di alam semesta, sekecil gaji bulanan saya yang lewat doang tiap gajian.</review>
+      <review user="HelmKacaPecah" score="10" date="2024-05-01">Anne Hathaway potong rambut pendek tetap aja cantik paripurna, nggak kayak saya yang kalau potong pendek malah mirip tukang parkir indomaret.</review>
+      <review user="GalaksiBimaSakti" score="9" date="2024-01-28">Menembus batas antar galaksi demi mencari rumah baru umat manusia, padahal nyari kontrakan murah di Jakarta aja susahnya udah setengah mati.</review>
+      <review user="BatuMeteorJatuh" score="10" date="2024-04-25">Adegan pas mereka debat milih planet mana yang mau didatengin ngingetin saya pas temen-temen debat milih tempat makan siang nggak kelar-kelar.</review>
+      <review user="DebuKosmik" score="8" date="2024-03-08">Film berdurasi hampir tiga jam yang nggak kerasa lama sama sekali, beda banget pas dengerin ceramah bos di kantor hari senin.</review>
+      <review user="PesawatUlangAlik" score="9" date="2024-02-18">Kalau saya jadi Cooper, mungkin saya udah nyerah duluan pas lihat ombak segede gunung itu, mending langsung pingsan aja biar tenang.</review>
+      <review user="OksigenHabis" score="10" date="2024-05-15">Matt Damon di sini nyebelin banget, udah ditolongin malah berkhianat, bener-bener definisi teman makan teman versi intergalaksi yang sangat kurang ajar.</review>
+      <review user="TangisanAngkasa" score="9" date="2024-01-12">Soundtrack organ pipanya bener-bener megah, serasa lagi ibadah di katedral luar angkasa sambil nunggu giliran dipanggil alien buat diajak minum kopi.</review>
+      <review user="RumusGravitasi" score="10" date="2024-04-05">Gara-gara nonton Interstellar, saya jadi mendadak pengen belajar fisika kuantum padahal ngitung kembalian beli gorengan aja masih sering salah dan tertipu.</review>
+      <review user="BukuJatuhSendiri" score="8" date="2024-03-25">Kode morse pakai jarum jam itu jenius banget, coba kalau saya yang dikasih kode gitu pasti disangka jamnya rusak minta diganti.</review>
+      <review user="PapanTulisPenuh" score="9" date="2024-02-02">Profesor Brand jago banget bohongin semua orang selama puluhan tahun, fix dia cocok banget kalau nyalonin diri jadi anggota dewan perwakilan.</review>
+      <review user="LahanKering" score="10" date="2024-05-08">Endingnya bikin haru biru, sang ayah masih awet muda sedangkan anaknya udah jadi nenek-nenek tua renta yang dirawat di ranjang rumah.</review>
+      <review user="KapsulTidur" score="9" date="2024-01-20">Tidur di dalam pod air itu kelihatan nyaman banget, apalagi buat saya yang sering kena insomnia kalau malam minggu datang menyapa.</review>
+      <review user="SinyalHilang" score="10" date="2024-04-20">Film yang menggabungkan sains rumit dengan drama keluarga yang sangat menyentuh hati sanubari paling dalam sampai tembus ke usus dua belas.</review>
+      <review user="CahayaBintang" score="8" date="2024-03-12">Bumi udah mau kiamat tapi mereka masih sempat-sempatnya minum bir di teras rumah, emang santuy banget orang Amerika menghadapi akhir zaman.</review>
+      <review user="AwanHitamPekat" score="9" date="2024-02-14">Saya masih merinding ingat kata-kata "Do not go gentle into that good night", langsung saya jadikan status WhatsApp biar kelihatan intelek.</review>
+      <review user="LubangHitamRaksasa" score="10" date="2024-05-28">Nolan berhasil memvisualisasikan Tesseract dengan sangat gila, otak saya rasanya kayak diajak senam aerobik selama dua jam penuh tanpa henti istirahat.</review>
+      <review user="JalanCahaya" score="9" date="2024-01-08">Bayangin nungguin orang puluhan tahun sendirian di pesawat luar angkasa, kalau saya sih mending maraton nonton drakor sampai tamat berkali-kali aja.</review>
+      <review user="WaktuBerhenti" score="10" date="2024-04-10">Ini film yang wajib ditonton setidaknya sekali seumur hidup biar sadar kalau kita cuma debu kosmik yang kebetulan numpang hidup doang.</review>
+      <review user="AngkasaHampa" score="8" date="2024-03-02">Kenapa nggak dari awal aja mereka tinggal di stasiun luar angkasa yang melengkung itu, kan enak main bisbol jendelanya kebalik atas.</review>
+      <review user="TaliPenyelamat" score="9" date="2024-02-22">Coba aja TARS dijual bebas di pasaran, pasti laris manis dibeli ibu-ibu buat disuruh jagain anak sambil bacain dongeng sebelum tidur.</review>
+      <review user="TeleskopPecah" score="10" date="2024-05-18">Saya suka banget adegan pas Cooper nyetir mobil ngelewatin ladang jagung ngejar drone India, berasa nonton film balapan versi petani nekat.</review>
+      <review user="SatelitMataMata" score="9" date="2024-01-15">Film sci-fi terbaik dekade ini tanpa perdebatan panjang, visualnya nggak main-main padahal pakai CGI seminimal mungkin demi mengejar efek realistis parah.</review>
+      <review user="KometMelintas" score="10" date="2024-04-28">Kalau saya jadi Murphy, saya pasti udah banting jam tangannya gara-gara sebel ditinggal bapak ke luar angkasa nggak pamit beli seblak.</review>
+      <review user="BintangPari" score="8" date="2024-03-18">Ketegangan saat adegan docking berputar itu bikin saya refleks nahan napas sampai muka merah padam, untung nggak sampai pingsan di kursi.</review>
+      <review user="GalaksiAndromeda" score="9" date="2024-02-10">Pantesan sutradaranya Christopher Nolan, filmnya emang dirancang khusus buat bikin penonton mikir keras sambil ngerasain emosi campur aduk jadi satu panci.</review>
+      <review user="GugusBintang" score="10" date="2024-05-05">Setelah nonton ini, memandang langit malam rasanya jadi beda, berasa ada Cooper yang lagi ngintip dari balik bintang-bintang sambil senyum tipis.</review>
+      <review user="SinarUltraviolet" score="9" date="2024-01-30">Pesan moral lainnya: kalau mau selamat dari kiamat, jadilah ilmuwan cerdas, jangan jadi beban keluarga yang cuma bisa rebahan setiap hari.</review>
+      <review user="AuroraBorealis" score="10" date="2024-04-15">Setiap detak detik di soundtracknya merepresentasikan waktu yang terbuang sia-sia, bikin saya overthinking mikirin masa depan yang masih suram belum jelas.</review>
+      <review user="PlanetEsMembeku" score="8" date="2024-03-08">Perkelahian antara Cooper dan Dr. Mann itu membuktikan bahwa orang pinter pun kalau udah panik bisa berubah jadi brutal kayak preman.</review>
+      <review user="RadiasiMatahari" score="9" date="2024-02-25">Saya bersyukur hidup di zaman bumi masih layak huni, nggak kebayang kalau tiap hari harus makan bubur jagung sampai bosan muntah.</review>
+      <review user="CincinSaturnus" score="10" date="2024-05-20">Masterpiece sejati yang akan terus dibicarakan sampai puluhan tahun ke depan, layaknya legenda yang tak lekang oleh waktu dan zaman modern.</review>
+      <review user="RuangHampaUdara" score="9" date="2024-01-05">Ending Cooper yang nyolong pesawat demi nyamperin Amelia Brand lagi itu so sweet banget, bucin antar galaksi yang hakiki dan tiada tara.</review>
+    </reviews>
+  </film>
+
+  <film id="3">
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genre>Action</genre>
+    <duration>152</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Batman menghadapi musuh paling berbahayanya — The Joker — seorang kriminal anarchis yang bertekad menjungkirbalikkan tatanan kota Gotham dan mendorong Batman ke batas moralnya.</synopsis>
+    <rating>9.5</rating>
+    <votes>3210</votes>
+    <poster>https://image.tmdb.org/t/p/original/2Pf0Dtw6P9CWshK6GYVXmmq9NFS.jpg</poster>
+    <trailer>https://www.youtube.com/embed/EXeTwQWrcwY</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="KelelawarGigiOmpong" score="10" date="2024-04-01">Heath Ledger sebagai Joker bener-bener akting tingkat dewa yang bikin bulu ketek merinding, nggak ada lawan pokoknya sepanjang sejarah film pahlawan.</review>
+      <review user="BadutSirkusNangis" score="10" date="2024-03-15">Bukan film superhero biasa, ini film tentang orang gila jenius yang ngerjain satu kota penuh polisi pakai trik sulap pensil brutal.</review>
+      <review user="MobilBatmobileMogok" score="9" date="2024-02-20">Setiap dialog Joker terasa seperti kutipan filosofi dari bapak-bapak pos ronda yang lagi mabuk tuak tapi omongannya masuk akal semua parah.</review>
+      <review user="TopengKaretBolong" score="10" date="2024-05-10">Harvey Dent mukanya separuh angus tetap aja kelihatan ganteng, coba kalau muka saya yang kena api pasti disangka gorengan gosong gagal.</review>
+      <review user="JubahHitamLuntur" score="9" date="2024-01-28">Kenapa Batman kalau ngomong suaranya harus dibikin serak-serak basah gitu ya, padahal kan tinggal pakai megaphone aja biar warga Gotham denger.</review>
+      <review user="KotaGothamBanjir" score="10" date="2024-04-22">Adegan meledakkan rumah sakit pakai baju suster itu ikonik banget, Joker emang nggak ada matinya kalau urusan ngerjain orang dengan gaya.</review>
+      <review user="PolisiTidurGotham" score="8" date="2024-03-05">Film ini mengajarkan bahwa kadang pahlawan harus rela difitnah demi kebaikan bersama, persis kayak saya yang difitnah ngabisin kerupuk di warteg.</review>
+      <review user="LampuSorotMati" score="9" date="2024-02-14">Gila itu truk trailer bisa sampai jungkir balik 180 derajat di tengah jalan kota, biaya asuransinya pasti selangit nggak ketulungan mahal.</review>
+      <review user="GuaKelelawarGelap" score="10" date="2024-05-02">Akting Christian Bale ketutup abis sama pesonanya Heath Ledger, Joker di sini bener-bener nyuri panggung dari awal sampai akhir film selesai.</review>
+      <review user="SenjataBatarang" score="9" date="2024-01-10">Kalau saya jadi warga Gotham, mending saya pindah ke desa aja bertani singkong, daripada tiap malam jantungan denger bunyi ledakan bom.</review>
+      <review user="KartuRemiJoker" score="10" date="2024-04-18">Trik sulap ngilangin pensil ke mata orang itu adalah trik paling horor sekaligus memukau yang pernah saya lihat di layar tancap.</review>
+      <review user="UangSogokanHabis" score="8" date="2024-03-22">Joker ngebakar uang segunung itu bikin saya nangis batin, padahal mending uangnya dikasih ke saya buat modal buka rental PS rental.</review>
+      <review user="MotorRodaBesar" score="9" date="2024-02-08">Motor Batpod yang rodanya bisa muter-muter itu keren abis, coba ada dijual di dealer terdekat pasti saya beli walau nyicil selamanya.</review>
+      <review user="JaketKulitBale" score="10" date="2024-05-25">Gordon pura-pura mati buat ngejebak Joker itu plot twist yang lumayan ngena, pantesan istrinya nangis histeris kayak kehabisan diskon di mall.</review>
+      <review user="SinyalKelelawar" score="9" date="2024-01-30">Film superhero paling gelap dan realistis yang pernah ada, nggak ada alien atau monster aneh, cuma kejahatan murni dari manusia sakit.</review>
+      <review user="PisauLipatJoker" score="10" date="2024-04-05">"Why so serious?" kalimat legendaris yang sampai sekarang masih sering saya pakai buat balesin chat pacar kalau dia lagi ngambek berat.</review>
+      <review user="BomWaktuMacet" score="8" date="2024-03-12">Eksperimen sosial di dua kapal feri itu bikin deg-degan parah, untungnya warga Gotham masih punya hati nurani walau kotanya amburadul hancur.</review>
+      <review user="KoinDuaSisi" score="9" date="2024-02-28">Nasib Two-Face sayang banget cuma muncul sebentar, padahal desain mukanya udah ngeri banget kayak ayam geprek yang lupa nggak diangkat dari wajan.</review>
+      <review user="PeluruNyasarGotham" score="10" date="2024-05-15">Soundtrack film ini bikin suasana makin tegang mencekam, apalagi nada senar biola yang melengking itu rasanya kayak ngiris telinga pakai silet.</review>
+      <review user="PenjaraArkhamPenuh" score="9" date="2024-01-18">Joker itu pinter banget manfaatin kelemahan mental polisi, ini bukti kalau musuh tanpa otot pun bisa menang asal otaknya jalan lancar.</review>
+      <review user="RiasanLuntur" score="10" date="2024-04-28">Nggak ada yang bisa ngalahin adegan Joker tepuk tangan sarkas di dalam penjara, auranya bener-bener mengintimidasi sampai bikin polisi kicep diam.</review>
+      <review user="TopengBadutLucu" score="8" date="2024-03-08">Alfred itu definisi pembantu sultan yang setia kawan, selalu ngasih nasehat bijak walau majikannya bandel suka keluyuran malam pakai baju kelelawar.</review>
+      <review user="GedungPencakarLangit" score="9" date="2024-02-05">Lucius Fox asik banget disuruh bikin alat canggih mulu, saya curiga dia sebenarnya pesulap nyasar yang kerja di Wayne Enterprises diam-diam.</review>
+      <review user="KabelKuatBatman" score="10" date="2024-05-08">Melihat Batman ngangkat orang dari gedung pencakar langit pakai balon udara itu mengingatkan saya pada cara kerja kurir paket zaman purba.</review>
+      <review user="SepatuBootsHitam" score="9" date="2024-01-25">Rachel mati gara-gara Batman salah lokasi nyelamatin, aduh kasihan banget cintanya bertepuk sebelah tangan lalu meledak berkeping-keping jadi abu gosok.</review>
+      <review user="KacaAntiPeluru" score="10" date="2024-04-12">Film ini pantas dapet semua piala Oscar di tahun rilisnya, masterclass dalam hal penulisan naskah, akting, dan penyutradaraan kelas dunia nyata.</review>
+      <review user="AnjingGilaJoker" score="8" date="2024-03-25">Joker ngegantung terbalik senyum-senyum aja di akhir film, emang beneran orang sinting yang hidup cuma buat bikin kekacauan massal tiada henti.</review>
+      <review user="TembokBerlubang" score="9" date="2024-02-15">Saya masih takjub gimana caranya Joker masukin bom ke dalam perut orang gemuk di penjara, sungguh ilmu bedah yang sangat dipertanyakan.</review>
+      <review user="SonarHPKelelawar" score="10" date="2024-05-20">Konsep memata-matai seluruh kota pakai sonar handphone itu melanggar privasi sih, tapi ya namanya juga Batman bebas melakukan apa saja maunya.</review>
+      <review user="JubahTerbangAngin" score="9" date="2024-01-08">Adegan kejar-kejaran di terowongan itu intens abis, bazoka Joker bikin mobil polisi melayang kayak kapas ditiup angin topan puting beliung kencang.</review>
+      <review user="MobilRongsokan" score="10" date="2024-04-08">Setelah nonton The Dark Knight, film superhero lain rasanya jadi kayak kartun anak-anak minggu pagi yang tayang sambil nemenin makan bubur.</review>
+      <review user="GedungRumahSakit" score="8" date="2024-03-02">Ledakan rumah sakit yang delay terus Joker mukul-mukul remotnya itu ternyata hasil improvisasi jenius, emang the best banget almarhum Heath Ledger.</review>
+      <review user="LampuKotaPadam" score="9" date="2024-02-22">Coba aja ada sekuelnya yang masih pakai Joker versi ini, pasti dunia perfilman bakal terus terguncang sama kegilaannya yang luar biasa.</review>
+      <review user="WajahDuaSisi" score="10" date="2024-05-12">Harvey Dent adalah pahlawan yang hidup terlalu lama hingga menjadi penjahat, sebuah pepatah yang sangat relate dengan kehidupan dunia nyata kita.</review>
+      <review user="PenyusupGelap" score="9" date="2024-01-20">Pesta amal Bruce Wayne dirusak Joker itu beneran nyebelin, padahal makanannya kelihatannya enak-enak banget malah diancur-ancurin begitu aja sama gerombolan badut.</review>
+      <review user="GelasKacaJatuh" score="10" date="2024-04-25">Cara Joker menginterogasi geng mafia dengan meletakkan granat di mulut orang itu sangat kreatif sekaligus bikin penonton merinding ketakutan setengah mati.</review>
+      <review user="MobilLamborghini" score="8" date="2024-03-18">Bruce Wayne nabrakin mobil lamborghininya demi nyelamatin orang itu flexing kekayaan yang berfaedah, coba kalau saya nyetir mending ngerem mendadak aja.</review>
+      <review user="PisangGorengGosong" score="9" date="2024-02-10">Film yang nggak akan pernah bosan ditonton ulang berkali-kali, karena setiap dialognya punya makna tersembunyi yang dalam banget kayak sumur bor.</review>
+      <review user="KipasAnginRusak" score="10" date="2024-05-05">Batman rela diburu polisi demi ngejaga nama baik Harvey Dent, ini pengorbanan tingkat tinggi yang jarang dimiliki orang-orang di zaman sekarang.</review>
+      <review user="BajuBesiBerat" score="9" date="2024-01-12">Desain kostum Batman yang lehernya bisa muter itu inovasi bagus, sebelumnya kaku banget kayak orang salah urat leher habis bangun tidur.</review>
+      <review user="RodaGigiAus" score="10" date="2024-04-15">Setiap kemunculan Joker di layar bikin saya berhenti ngunyah popcorn karena takut kehilangan momen menegangkan yang disajikan sang sutradara jenius ini.</review>
+      <review user="SirinePolisiBerisik" score="8" date="2024-03-28">Wali kota Gotham pasti stres berat punya warga kayak Joker, belum lagi bangunan kotanya hancur melulu harus direnovasi pakai uang pajak.</review>
+      <review user="TeleponUmumKoin" score="9" date="2024-02-05">Joker itu bukti bahwa orang tanpa rencana hidup kadang lebih berbahaya daripada orang yang menyusun rencana matang dari A sampai Z.</review>
+      <review user="KertasUjianKotor" score="10" date="2024-05-22">Bagi saya, The Dark Knight bukan sekadar film tentang komik superhero, tapi studi psikologis tentang bagaimana kekacauan bisa mengendalikan kewarasan manusia.</review>
+      <review user="AsapRokokTebal" score="9" date="2024-01-05">Nonton ini bikin saya sadar, terkadang musuh terbesar kita bukanlah orang kuat, melainkan orang yang tidak punya rasa takut kehilangan apapun.</review>
+    </reviews>
+  </film>
+
+  <film id="4">
+    <title>Parasite</title>
+    <year>2019</year>
+    <genre>Thriller</genre>
+    <duration>132</duration>
+    <director>Bong Joon-ho</director>
+    <synopsis>Keluarga Ki-taek yang miskin dan menganggur berhasil menyusup masuk ke dalam kehidupan keluarga Park yang sangat kaya, hingga sebuah kejadian tak terduga memicu rangkaian peristiwa gelap yang tak bisa dihentikan.</synopsis>
+    <rating>8.8</rating>
+    <votes>1756</votes>
+    <poster>https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg</poster>
+    <trailer>https://www.youtube.com/embed/5xH0HfJHsaY</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="WifiTetanggaBocor" score="10" date="2024-04-01">Numpang wifi di WC itu sungguh relate dengan kehidupan anak kos akhir bulan yang paketan datanya sudah habis duka merana selalu.</review>
+      <review user="BatuAkikSakti" score="9" date="2024-03-15">Batu pemandangan yang dibawa temannya itu bawa sial banget, mending bawa martabak telor aja kalau bertamu, jelas enak dan mengenyangkan perut.</review>
+      <review user="MieInstanSultan" score="10" date="2024-02-20">Nonton ibunya bikin Ramdon dicampur daging sapi premium bikin saya ngiler parah padahal cuma lagi makan indomie pakai telor setengah matang.</review>
+      <review user="SofaTidurNyaman" score="9" date="2024-05-10">Adegan sembunyi di bawah meja ruang tamu pas majikannya lagi mesra-mesraan itu bikin nahan napas, gila aja kalau sampai ketahuan mendadak.</review>
+      <review user="BauBajuBasah" score="10" date="2024-01-28">Kritik sosial tentang bau orang miskin itu nyelekit banget sampai ke ulu hati, bikin saya buru-buru semprot parfum sebotol sebelum jalan.</review>
+      <review user="GudangBawahTanah" score="8" date="2024-04-22">Ternyata ada orang yang numpang hidup di bunker bawah tanah rumah orang kaya tanpa bayar sepeserpun, sungguh konsep kos-kosan yang ekstrem.</review>
+      <review user="BanjirAirHujan" score="9" date="2024-03-05">Air banjir selokan meluap masuk rumah itu mengerikan, apalagi wc-nya sampai nyembur-nyembur kayak air mancur taman kota yang tak terkendali alirannya.</review>
+      <review user="KunciMobilMewah" score="10" date="2024-02-14">Film yang awalnya berasa komedi keluarga berubah drastis jadi pembantaian berdarah di acara ulang tahun bocah, sungguh roller coaster emosi parah.</review>
+      <review user="TukangKebunPalsu" score="9" date="2024-05-02">Keluarga Ki-taek itu solid banget nipunya, cocok dibikinin agensi penyedia jasa acting dadakan buat ngelabuin mertua yang cerewet banyak maunya selalu.</review>
+      <review user="SinyalMorseLampu" score="10" date="2024-01-10">Bong Joon-ho memang sutradara jenius yang berhasil bikin film Asia menguasai panggung Oscar dengan cerita yang sangat relevan tentang ketimpangan sosial.</review>
+    </reviews>
+  </film>
+
+  <film id="5">
+    <title>Dune</title>
+    <year>2021</year>
+    <genre>Sci-Fi</genre>
+    <duration>155</duration>
+    <director>Denis Villeneuve</director>
+    <synopsis>Paul Atreides, seorang pemuda berbakat lahir dari takdir yang jauh melampaui pemahamannya, harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depan keluarganya dan rakyatnya.</synopsis>
+    <rating>8.3</rating>
+    <votes>1432</votes>
+    <poster>https://image.tmdb.org/t/p/original/lr3cYNDlJcpT1EWzFH42aSIvkab.jpg</poster>
+    <trailer>https://www.youtube.com/embed/8g18jFHCLXk</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="PasirGurunPanas" score="9" date="2024-04-01">Cacing raksasanya gede banget kayak ular naga di sinetron kolosal jadul, bedanya ini grafisnya halus mulus nggak kelihatan editan komputer murah.</review>
+      <review user="BumbuDapurRempah" score="10" date="2024-03-15">Semua orang memperebutkan rempah spice, padahal di pasar tradisional bumbu kunyit jahe juga banyak dijual murah meriah tanpa harus perang galaksi.</review>
+      <review user="TerbangNaikCapung" score="9" date="2024-02-20">Pesawat ornitopher yang sayapnya getar-getar itu mirip banget sama capung raksasa yang suka hinggap di jemuran baju basah di belakang rumah.</review>
+      <review user="KotakSakitTangan" score="8" date="2024-05-10">Tes memasukkan tangan ke dalam kotak rasa sakit itu serem banget, mending saya disuruh masukin tangan ke kotak undian berhadiah piring.</review>
+      <review user="SuaraIbuSihir" score="10" date="2024-01-28">Gila sih The Voice yang dipakai Paul Atreides buat merintah orang, coba saya punya kekuatan gitu pasti gampang nyuruh adek warung.</review>
+      <review user="KostumGurunHaus" score="9" date="2024-04-22">Baju fremen yang bisa mendaur ulang air keringat dan kencing jadi air minum lagi itu inovasi jorok tapi sangat fungsional sekali.</review>
+      <review user="PerisaiBiruMerah" score="10" date="2024-03-05">Sistem perisai badannya keren, pedang nggak bisa tembus kalau cepat tapi bisa masuk kalau pelan, bikin koreografi pertarungannya jadi unik banget.</review>
+      <review user="BapakDukeMati" score="8" date="2024-02-14">Kasihan banget Duke Leto baru pindah rumah dinas ke planet pasir langsung dikhianati dan diserang, padahal belum sempat beres-beres barang pindahan.</review>
+      <review user="BaronGemukMandi" score="9" date="2024-05-02">Baron Harkonnen yang bisa melayang-layang itu penampakannya menjijikkan banget apalagi pas dia mandi di cairan hitam kental mirip oli mesin bekas.</review>
+      <review user="MataBiruMenyala" score="10" date="2024-01-10">Zendaya cuma muncul dikit doang kerjanya cuma jalan-jalan di mimpi Paul sambil noleh estetik kena angin gurun yang menerpa rambut indahnya.</review>
+      <review user="CacingMakanEkskavator" score="9" date="2024-04-18">Adegan mesin penambang spice dimakan mentah-mentah sama cacing raksasa itu bikin saya melongo, rugi bandar miliaran dolar dalam hitungan detik doang.</review>
+      <review user="LangkahTakBerirama" score="10" date="2024-03-22">Berjalan di padang pasir harus nggak beraturan biar nggak disangka ritme mangsa, ini cocok buat orang yang kakinya sering kesemutan mendadak.</review>
+      <review user="PangeranGantengTimothee" score="8" date="2024-02-08">Timothee Chalamet mukanya terlalu glowing buat ukuran cowok yang keluyuran di padang pasir, skincare routine planet asalnya pasti mahal banget harganya.</review>
+      <review user="PasukanBotakPutih" score="9" date="2024-05-25">Pasukan Sardaukar pas lagi upacara sebelum perang itu suaranya nyeremin kayak orang lagi ngorok massal campur nyanyian ritual sekte aliran sesat.</review>
+      <review user="IbuHamilSakti" score="10" date="2024-01-30">Lady Jessica aktingnya ngeri-ngeri sedap, diam-diam menghanyutkan bawa pedang ke mana-mana, ini nih bukti ibu-ibu kalau udah ngamuk pasti bawa malapetaka.</review>
+      <review user="TerikMatahariGurun" score="9" date="2024-04-05">Sinematografinya juara, setiap frame bisa diprint lalu dibingkai jadi pajangan dinding ruang tamu yang elegan minimalis bergaya estetika padang pasir tandus.</review>
+      <review user="LudahHormatGurun" score="10" date="2024-03-12">Meludah buat memberikan hormat itu budaya paling aneh yang pernah ada, untung di Indonesia meludah sembarangan malah dapet omelan tetangga sebelah.</review>
+      <review user="KopiTanpaAir" score="8" date="2024-02-28">Nonton film ini bikin saya selalu sedia botol minum ukuran galon, bawaannya haus mulu ngelihat visual pasir sejauh mata memandang luas.</review>
+      <review user="TidurDalamTenda" score="9" date="2024-05-15">Paul dan ibunya bertahan hidup di dalam tenda gurun yang bentuknya kayak kerupuk jengkol terbalik, canggih banget bisa menyerap kelembaban sekitarnya.</review>
+      <review user="MimpiKenyataanJauh" score="10" date="2024-01-18">Denis Villeneuve berhasil mengadaptasi novel yang super rumit menjadi tontonan epik yang memanjakan mata telinga hati dan pikiran para penonton bioskop.</review>
+      <review user="TombakKacaPanjang" score="9" date="2024-04-28">Senjata pisau crysknife yang terbuat dari gigi cacing itu kalau jatoh kira-kira bakal pecah berkeping-keping nggak ya kayak piring beling murahan.</review>
+      <review user="TabungOksigenNapas" score="10" date="2024-03-08">Scorcery dan sains digabung jadi satu di alam semesta yang feudal, world-building Dune emang nggak ada duanya dalam sejarah literasi sci-fi.</review>
+      <review user="BajuZirahBerat" score="8" date="2024-02-05">Gurney Halleck bawa alat musik baliset kemana-mana pas perang, ini komandan tempur apa anak senja yang lagi cari inspirasi lagu indie.</review>
+      <review user="PisauBeracunHitam" score="9" date="2024-05-08">Dokter Yueh pengkhianatannya bikin geregetan, padahal udah dipercaya penuh sama Duke, dasar dokter palsu mending disuntik pakai jarum suntik sapi aja.</review>
+      <review user="BadaiPasirKencang" score="10" date="2024-01-25">Menerobos badai pasir pakai pesawat ornitopher itu rasanya kayak naik angkot ugal-ugalan pas lagi hujan deras di malam hari tak berlampu.</review>
+      <review user="CahayaBulanGurun" score="9" date="2024-04-12">Visual planet Arrakis ini bikin saya rindu main ke gumuk pasir Parangkusumo, bedanya di sana nggak ada cacing raksasa pemakan ekskavator.</review>
+      <review user="GigiCacingTajam" score="10" date="2024-03-25">Musik garapan Hans Zimmer lagi-lagi mencetak sejarah, dentuman suaranya bikin dada ikut bergetar seirama dengan getaran tanah saat cacing purba lewat.</review>
+      <review user="TikusGurunTelinga" score="8" date="2024-02-15">Tikus gurun muad'dib yang telinganya besar itu imut banget, pengen tangkap satu buat dipelihara di kosan biar bisa nangkap nyamuk nakal.</review>
+      <review user="TandaLahirKaki" score="9" date="2024-05-20">Kepercayaan kaum Fremen terhadap Lisan al Gaib membuktikan betapa mudahnya orang dikendalikan oleh dogma dan janji-janji palsu tentang keselamatan masa depan.</review>
+      <review user="BibirKeringPecah" score="10" date="2024-01-08">Jason Momoa jadi Duncan Idaho karakternya asik banget, petarung garang tapi murah senyum, kayak preman pasar yang lagi jatuh cinta berat.</review>
+      <review user="JubahCokelatKotor" score="9" date="2024-04-08">Perang malam hari saat pangkalan diserang Harkonnen itu spektakuler, api ledakan kontras banget sama perisai biru merah yang nyala terang benderang.</review>
+      <review user="CincinKekuasaan" score="10" date="2024-03-02">Paul harus menanggung beban masa depan alam semesta di usianya yang masih muda, mending saya yang cuma mikirin kapan gajian turun.</review>
+      <review user="GelasAirMandi" score="8" date="2024-02-22">Melihat film Dune ini saya merasa sedang menonton Game of Thrones versi luar angkasa penuh dengan politik tipu daya saling tikam.</review>
+      <review user="LorongGelapIstana" score="9" date="2024-05-12">Setiap elemen dalam film ini dirancang dengan presisi yang luar biasa gila, dari desain kapal hingga arsitektur bangunan di planet pasir.</review>
+      <review user="LangitMerahBara" score="10" date="2024-01-20">Sayang banget filmnya cuma setengah cerita doang, pas lagi seru-serunya eh disuruh nunggu part 2 keluar beberapa tahun lagi dasar pelit.</review>
+      <review user="RempahWangiPedas" score="9" date="2024-04-25">Orang-orang di sana matanya biru-biru kecanduan spice, persis kayak mata teman saya yang begadang tiga hari main game online nggak tidur.</review>
+      <review user="PilarBatuRuntuh" score="10" date="2024-03-18">Pertarungan pisau di akhir film antara Paul dan Jamis koreografinya halus tapi mematikan, nggak banyak gaya putar-putar nggak jelas tapi langsung.</review>
+      <review user="GelangEmasPalsu" score="8" date="2024-02-10">Reverend Mother nyeremin banget pakai jubah hitam dan kerudung jaring-jaring menutupi wajahnya, auranya kayak ibu kos penagih tunggakan bulan lalu galak.</review>
+      <review user="JubahHitamSekte" score="9" date="2024-05-05">Dune mengajarkan kita tentang eksploitasi alam, ketika keserakahan manusia memicu kehancuran sebuah planet demi menguasai sumber daya paling berharga di semesta.</review>
+      <review user="AnginPutingPasir" score="10" date="2024-01-12">Kostum dan tata rias film ini pantas menang Oscar berkali-kali, detailnya luar biasa bikin dunia fiksi ini terasa nyata bernapas hidup.</review>
+      <review user="SeranggaPembunuh" score="9" date="2024-04-15">Hunter-seeker nyamuk jarum mematikan yang masuk ke kamar Paul bikin saya refleks sembunyi di dalam selimut takut ikutan kena suntik mati.</review>
+      <review user="BayanganGelapMalam" score="10" date="2024-03-28">Film yang skalanya sangat masif dan kolosal, menontonnya di layar hape adalah sebuah dosa besar yang tak termaafkan bagi pecinta sinema.</review>
+      <review user="TelapakKakiPanas" score="8" date="2024-02-05">Ini baru namanya sinema sci-fi berkualitas tinggi yang tidak cuma mengandalkan tembak-tembakan laser, melainkan politik, filsafat, dan agama dalam satu paket.</review>
+      <review user="PemandanganGurun" score="9" date="2024-05-22">Villeneuve berhasil membuat planet yang isinya cuma pasir dan batu menjadi setting cerita paling estetik yang pernah terekam kamera layar lebar.</review>
+      <review user="BatuKarangTajam" score="10" date="2024-01-05">Setelah credits bergulir, saya cuma bisa termenung diam meresapi epiknya cerita sambil nyeruput es teh manis yang es batunya udah cair.</review>
+    </reviews>
+  </film>
+
+  <film id="6">
+    <title>Everything Everywhere All at Once</title>
+    <year>2022</year>
+    <genre>Drama</genre>
+    <duration>139</duration>
+    <director>Daniel Kwan &amp; Daniel Scheinert</director>
+    <synopsis>Seorang wanita Tionghoa-Amerika yang kewalahan mengelola laundry-nya terseret ke dalam petualangan aneh di mana ia harus terhubung dengan kehidupan-kehidupan paralel dirinya sendiri untuk menyelamatkan multiverse.</synopsis>
+    <rating>8.7</rating>
+    <votes>1689</votes>
+    <poster>https://image.tmdb.org/t/p/original/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg</poster>
+    <trailer>https://www.youtube.com/embed/wxN1T1uxQ2g</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="JariSosisRaksasa" score="10" date="2024-04-01">Nonton film ini bikin otak konslet bentar gara-gara ada dimensi di mana manusia jarinya berbentuk sosis hotdog yang lentur menjijikkan aneh.</review>
+      <review user="MataKetigaBatu" score="9" date="2024-03-15">Adegan dua batu ngobrol di tebing itu adalah momen paling hening namun paling menyayat hati dalam sejarah perfilman modern abad ini.</review>
+      <review user="KertasPajakKusut" score="10" date="2024-02-20">Evelyn yang sibuk ngurusin pajak dan mesin cuci rusak sangat merepresentasikan pusingnya kepala emak-emak kalau udah tanggal tua di rumah tangga.</review>
+      <review user="PukulanPantatSakti" score="9" date="2024-05-10">Mekanisme lompat dimensi dengan melakukan hal paling absurd dan gila itu jenius banget, apalagi pas adegan makan lip balm buat teleportasi.</review>
+      <review user="DonatHitamRaksasa" score="10" date="2024-01-28">Kue bagel hitam yang bisa menyedot seluruh alam semesta itu mengajari kita bahwa kehampaan eksistensial bisa berwujud makanan manis yang mematikan.</review>
+      <review user="MesinCuciRusak" score="8" date="2024-04-22">Akting Michelle Yeoh gila banget, dari ibu-ibu bawel kang laundry jadi ahli kungfu multiverse, piala Oscarnya beneran layak dia dapatkan murni.</review>
+      <review user="AnjingPomeranianLompat" score="9" date="2024-03-05">Ternyata kunci mengalahkan penjahat antar dimensi bukanlah dengan kekerasan, melainkan dengan memeluk mereka dan memberi mata mainan plastik ke dahinya.</review>
+      <review user="BajuCheongsamMerah" score="10" date="2024-02-14">Waymond itu suami idaman banget yang ngajarin kita untuk tetap baik hati meskipun dunia sedang hancur lebur berantakan tanpa arah tujuan.</review>
+      <review user="RaccoonKokiPalsu" score="9" date="2024-05-02">Parodi film Ratatouille jadi Raccacoonie itu absurd banget bikin saya ngakak guling-guling sampai diliatin ibu kos yang lagi nyapu halaman depan.</review>
+      <review user="FakturPajakBodong" score="10" date="2024-01-10">Pesan film ini sangat dalam tentang trauma generasi dan hubungan ibu anak yang rumit dibungkus dengan visual warna-warni yang menyilaukan mata.</review>
+    </reviews>
+  </film>
+
+  <film id="7">
+    <title>Oppenheimer</title>
+    <year>2023</year>
+    <genre>Drama</genre>
+    <duration>180</duration>
+    <director>Christopher Nolan</director>
+    <synopsis>Kisah J. Robert Oppenheimer dan perannya yang menentukan dalam pengembangan bom atom selama Proyek Manhattan, serta konsekuensi moral yang mengikutinya sepanjang hidupnya.</synopsis>
+    <rating>9.0</rating>
+    <votes>2145</votes>
+    <poster>https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg</poster>
+    <trailer>https://www.youtube.com/embed/uYPbbksJxIg</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="BomAtomMeledak" score="10" date="2024-04-01">Tiga jam nonton orang ngobrol di ruangan tapi tegangnya ngalahin nonton film horor kesurupan massal di desa penari tanpa henti sama sekali.</review>
+      <review user="TopiFedoraHitam" score="9" date="2024-03-15">Cillian Murphy kurus banget di sini, matanya yang biru pucat bener-bener menyorotkan penderitaan batin seorang pencipta kiamat dunia nyata secara langsung.</review>
+      <review user="KacamataHitamLedakan" score="10" date="2024-02-20">Adegan ledakan Trinity test tanpa CGI itu luar biasa menyilaukan, rasanya panas sampai menembus layar bioskop bikin keringat dingin mengucur deras.</review>
+      <review user="KertasRumusFisika" score="8" date="2024-05-10">Banyak banget tokoh ilmuwan ternama yang muncul cameo bikin saya ngerasa lagi ikut kelas fisika kuantum tapi diajar sama aktor Hollywood.</review>
+      <review user="JasLabKotor" score="9" date="2024-01-28">Nolan emang nggak waras bikin suara ledakannya didelay sesuai teori kecepatan cahaya, pas suaranya sampai jantung saya rasanya copot lompat keluar.</review>
+      <review user="PipaRokokKayu" score="10" date="2024-04-22">Robert Downey Jr. aktingnya ngeri banget sebagai politisi licik Strauss, piala Oscar buat dia emang udah takdir yang tak bisa diganggu.</review>
+      <review user="SepatuPantofelHitam" score="9" date="2024-03-05">Film ini adalah mahakarya sinematik yang memaksa kita melihat sisi gelap dari kemajuan ilmu pengetahuan manusia yang tak terkendali secara moral.</review>
+      <review user="SidangTertutupKetat" score="10" date="2024-02-14">Interogasi keamanan Oppenheimer di ruangan kecil itu bikin frustrasi nontonnya, pahlawan negara kok malah diperlakukan kayak pengkhianat rendahan yang hina dina.</review>
+      <review user="ApelBeracunHijau" score="8" date="2024-05-02">Untung aja dosennya nggak jadi makan apel beracun yang disuntik sianida di awal film, kalau jadi mati tamat deh ceritanya cepat.</review>
+      <review user="PapanTulisKapur" score="9" date="2024-01-10">Skor musik Ludwig Göransson tuh kayak biola yang terus-terusan menggesek saraf otak, bikin deg-degan nggak karuan padahal adegannya cuma orang nulis.</review>
+      <review user="EinsteinSepedaNaik" score="10" date="2024-04-18">Momen pertemuan dengan Albert Einstein di pinggir kolam itu ikonik banget, obrolan singkat yang bikin sadar kalau dunia udah mendekati kehancurannya.</review>
+      <review user="GelasKopiPecah" score="9" date="2024-03-22">Los Alamos disulap jadi kota dadakan cuma buat bikin bom, gila banget budget proyek Manhattan, kalau di sini paling buat aspal.</review>
+      <review user="RadioaktifBocor" score="10" date="2024-02-08">Akting Florence Pugh sebagai selingkuhannya juga ngena banget walau singkat, adegan kursinya bikin kaget setengah mati satu studio bioskop waktu itu.</review>
+      <review user="KertasKalkulasiRusak" score="8" date="2024-05-25">Saya nggak ngerti setengah dari teori fisika yang diomongin, tapi tetep aja pura-pura manggut-manggut biar dikira orang pinter berwawasan luas tinggi.</review>
+      <review user="LedakanSenyap" score="9" date="2024-01-30">Pesan moral: jangan bikin senjata pemusnah massal kalau nggak siap dihantui rasa bersalah seumur hidup sampai mati tak tenang di kuburan.</review>
+      <review user="JamSakuAntik" score="10" date="2024-04-05">Emily Blunt sebagai Kitty Oppenheimer mabuk-mabukan terus tapi pas di sidang dia yang paling berani ngelawan para jenderal galak itu sendirian.</review>
+      <review user="KameraIMAXGede" score="8" date="2024-03-12">Nonton format IMAX adalah kewajiban buat film ini, efek suaranya bikin kursi bergetar hebat serasa lagi ikut nonton uji coba bom.</review>
+      <review user="LangitMalamTerang" score="9" date="2024-02-28">Film biopik terbaik yang nggak cuma menceritakan sejarah, tapi menelanjangi psikologis karakter utamanya yang penuh dengan kontradiksi dan rasa penyesalan mendalam.</review>
+      <review user="DebuRadioaktif" score="10" date="2024-05-15">Pidato Oppenheimer di gedung olahraga setelah pengeboman Jepang itu nyeremin, suara sorakan penonton berasa kayak jeritan nyawa yang terbakar api neraka.</review>
+      <review user="KacamataLasan" score="9" date="2024-01-18">Melihat para ilmuwan pakai kacamata las pas nonton ledakan Trinity ngingetin saya sama tukang las pagar di bengkel depan rumah bapak.</review>
+      <review user="PohonGersangGurun" score="10" date="2024-04-28">Christopher Nolan kembali membuktikan bahwa film tanpa banyak aksi pun bisa mencetak box office milyaran kalau naskah dan penyutradaraannya kelas atas.</review>
+      <review user="MedaliPenghargaan" score="8" date="2024-03-08">Akhir film yang menampilkan bayangan bumi terbakar sungguh memberikan pesan peringatan yang sangat nyata tentang bahaya perang nuklir di zaman modern.</review>
+      <review user="SuaraLangkahKaki" score="9" date="2024-02-05">Politik kotor di balik pencabutan izin keamanan Oppenheimer bikin darah tinggi naik, Lewis Strauss bener-bener villain yang mainnya sangat rapi licik.</review>
+      <review user="CahayaKematian" score="10" date="2024-05-08">Berdurasi 3 jam tapi pacing-nya cepat banget, dialog sambung menyambung tanpa henti bikin penonton nggak berani kedip apalagi izin ke toilet.</review>
+      <review user="TombolMerahBesar" score="9" date="2024-01-25">Saya merinding melihat wajah Presiden Truman yang memanggil Oppenheimer "crybaby", sungguh kekejaman penguasa yang tak punya empati pada penderitaan jiwa ilmuwannya.</review>
+      <review user="BintangFisikawan" score="10" date="2024-04-12">Setiap frame dari film ini seperti lukisan mahal yang punya seribu cerita kelam di balik keindahan sinematografinya yang memanjakan mata memandang.</review>
+      <review user="KertasKorbanPerang" score="8" date="2024-03-25">Momen hening setelah ledakan bom itu magis, keheningan yang lebih memekakkan telinga daripada suara ledakan granat atau meriam paling besar sekalipun.</review>
+      <review user="TeoriKuantumRumit" score="9" date="2024-02-15">Rami Malek cuma muncul dikit tapi perannya pas sidang penentuan itu keren banget, berhasil membungkam mulut politisi arogan dengan fakta telak.</review>
+      <review user="PasirGurunNewMexico" score="10" date="2024-05-20">Film ini mengajarkan bahwa menjadi genius itu berat, karena tangan mereka yang harus menanggung dosa dari penemuan yang menghancurkan jutaan nyawa.</review>
+      <review user="IsotopUranium" score="9" date="2024-01-08">Proyek triliunan rupiah cuma buat bikin satu bom besar, sementara di belahan bumi lain masih banyak yang susah makan nasi putih.</review>
+      <review user="SatelitBumiHancur" score="10" date="2024-04-08">Naskah yang diadaptasi dari buku American Prometheus ini sangat padat gizi, setiap kata yang diucapkan para aktornya punya bobot intelektual tinggi.</review>
+      <review user="LedakanBomHiroshima" score="8" date="2024-03-02">Nolan sengaja tidak memperlihatkan bom jatuh di Jepang, melainkan dampaknya pada pikiran Oppenheimer, sebuah keputusan artistik yang sangat cerdas dan brilian.</review>
+      <review user="CahayaMenyilaukanMata" score="9" date="2024-02-22">Cillian Murphy beneran harus makan kacang almond sebiji sehari demi kurus meranin ini, dedikasi aktor Hollywood emang nggak main-main gilanya.</review>
+      <review user="ApiMenyalaTerang" score="10" date="2024-05-12">Penggunaan hitam putih untuk sudut pandang objektif dan berwarna untuk subjektif itu teknik storytelling visual yang sangat jenius dari sang sutradara.</review>
+      <review user="RantaiReaksiKiamat" score="9" date="2024-01-20">Kekhawatiran bahwa bom itu akan membakar seluruh atmosfer bumi terus bikin tegang dari awal, ngeri banget kalau beneran kiamat saat itu.</review>
+      <review user="BukuBiografiTebal" score="10" date="2024-04-25">Soundtracknya yang menghentak-hentak bikin film ini terasa seperti thriller psikologis yang mencekik tenggorokan perlahan-lahan dari menit pertama hingga credit title muncul.</review>
+      <review user="BolaApiRaksasa" score="8" date="2024-03-18">Saya keluar bioskop dengan perasaan campur aduk, takjub dengan filmnya tapi sekaligus ngeri membayangkan dunia kita saat ini yang penuh nuklir.</review>
+      <review user="SidangPengkhianatan" score="9" date="2024-02-10">Matt Damon meranin jenderal Groves yang galak tapi sebenarnya lumayan kocak ngurusin kumpulan ilmuwan aneh yang kelakuannya kayak anak TK rewel.</review>
+      <review user="AwanJamurBesar" score="10" date="2024-05-05">Visual awan jamur yang terbuat dari debu itu ikonik, sebuah monumen menakutkan yang diciptakan umat manusia sebagai simbol kebanggaan sekaligus kehancuran.</review>
+      <review user="SuratIzinDicabut" score="9" date="2024-01-12">Akhir cerita yang tragis untuk seorang pahlawan, Oppenheimer memenangkan perang dunia tapi kalah melawan politik birokrasi negaranya sendiri yang licik korup.</review>
+      <review user="BapakBomAtom" score="10" date="2024-04-15">Bagi pecinta sejarah dan sinema berkualitas, film ini adalah kado terindah, durasi 180 menit tidak terasa panjang sama sekali karena keseruan ceritanya.</review>
+      <review user="TeoriRelativitas" score="8" date="2024-03-28">Percakapan terakhir dengan Einstein yang menjadi plot twist emosional adalah penutup sempurna untuk mahakarya terbesar Christopher Nolan sejauh ini dalam karirnya.</review>
+      <review user="SenjataPemusnahMassal" score="9" date="2024-02-05">Film ini wajib masuk kurikulum sekolah supaya anak-anak muda paham bahayanya perlombaan senjata militer dan pentingnya tanggung jawab moral seorang ilmuwan.</review>
+      <review user="DuniaKiamatEsok" score="10" date="2024-05-22">Cillian Murphy memberikan tatapan kosong sejuta ribu kata di scene penutup, itu adalah akting murni yang akan dikenang sepanjang masa perfilman.</review>
+      <review user="DebatPolitikKeras" score="9" date="2024-01-05">Kalau kalian suka mikir berat dan merenungi arti eksistensi manusia di bumi, wajib banget nonton ini sebelum mati atau bumi hancur.</review>
+    </reviews>
+  </film>
+
+  <film id="8">
+    <title>The Shawshank Redemption</title>
+    <year>1994</year>
+    <genre>Drama</genre>
+    <duration>142</duration>
+    <director>Frank Darabont</director>
+    <synopsis>Seorang bankir yang dihukum atas pembunuhan yang tidak dilakukannya membangun persahabatan mendalam di dalam penjara Shawshank, sambil diam-diam mempersiapkan sesuatu yang akan mengubah segalanya.</synopsis>
+    <rating>9.4</rating>
+    <votes>3089</votes>
+    <poster>https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg</poster>
+    <trailer>https://www.youtube.com/embed/6hB3S9bIaco</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="PaluBatuKecil" score="10" date="2024-04-01">Ngebor tembok penjara belasan tahun cuma pakai palu batu sekecil sikat gigi, Andy Dufresne emang definisi orang paling sabar di alam semesta.</review>
+      <review user="PipaSelokanBau" score="9" date="2024-03-15">Merangkak melewati pipa pembuangan kotoran sepanjang lima lapangan bola demi kebebasan, saya nyium bau got depan rumah aja udah muntah parah.</review>
+      <review user="PosterRitaHayworth" score="10" date="2024-02-20">Fungsi poster cewek cantik di dinding sel ternyata bukan buat pajangan doang, tapi buat nutupin lubang pelarian yang brilian banget idenya.</review>
+      <review user="PerpustakaanPenjara" score="9" date="2024-05-10">Nulis surat tiap minggu ke pemerintah buat minta dana perpus, ini orang tekadnya ngalahin sales asuransi yang nawarin produk lewat telepon.</review>
+      <review user="SipirGalakPukul" score="10" date="2024-01-28">Kepala sipir penjara yang korup itu pantes banget dapet karmanya di akhir cerita, emang seger banget ngelihat orang jahat kena azabnya.</review>
+      <review user="BirDinginAtap" score="8" date="2024-04-22">Adegan narapidana minum bir dingin di atas atap penjara pas lagi kerja kasar itu ngasih vibe kebahagiaan sederhana yang sangat menyentuh hati.</review>
+      <review user="BurungGagakPeliharaan" score="9" date="2024-03-05">Orang tua yang miara burung gagak dari bayi itu sedih banget pas keluar penjara malah gantung diri karena nggak bisa adaptasi.</review>
+      <review user="BatuHitamPohon" score="10" date="2024-02-14">Menemukan surat dan uang di bawah batu vulkanik hitam di dekat dinding batu itu ending paling memuaskan sepanjang sejarah film layar lebar.</review>
+      <review user="SuaraMorganFreeman" score="9" date="2024-05-02">Narasi Morgan Freeman tuh adem banget didengar, suaranya kayak lagi dibacain dongeng pengantar tidur sama kakek bijak dari negeri dongeng ajaib.</review>
+      <review user="SabunMandiJatuh" score="10" date="2024-01-10">Film yang mengajarkan bahwa harapan adalah hal yang baik, dan hal-hal yang baik tidak akan pernah mati tertelan oleh gelapnya dunia.</review>
+    </reviews>
+  </film>
+
+  <film id="9">
+    <title>Spirited Away</title>
+    <year>2001</year>
+    <genre>Animation</genre>
+    <duration>125</duration>
+    <director>Hayao Miyazaki</director>
+    <synopsis>Chihiro, seorang gadis 10 tahun, tersesat ke dunia roh bersama kedua orang tuanya. Untuk menyelamatkan mereka, ia harus bekerja di sebuah pemandian ajaib yang dipenuhi dewa-dewa dan roh dari tradisi Jepang.</synopsis>
+    <rating>8.9</rating>
+    <votes>1987</votes>
+    <poster>https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg</poster>
+    <trailer>https://www.youtube.com/embed/ByXuk9QqQkk</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="BabiMakanBanyak" score="10" date="2024-04-01">Nonton bapak ibunya Chihiro berubah jadi babi raksasa gara-gara rakus makan makanan dewa itu bikin saya trauma jajan di warung sembarangan.</review>
+      <review user="NagaPutihTerbang" score="9" date="2024-03-15">Haku kalau jadi naga bulunya kelihatan lembut banget pengen dielus-elus, coba naga Indosiar bisa sekeren ini pasti ratingnya naik drastis melesat.</review>
+      <review user="DewaLobakGendut" score="10" date="2024-02-20">Dewa lobak raksasa yang bantuin Chihiro naik lift itu imut banget, badannya empuk kayak bantal guling kesayangan saya di kamar kos.</review>
+      <review user="KaonashiTanpaWajah" score="9" date="2024-05-10">Hantu tanpa wajah No-Face awalnya nyeremin tapi lama-lama ngeselin suka muntah-muntah emas, padahal emasnya palsu jadi lumpur kotor bau tak sedap.</review>
+      <review user="NenekSihirKepalaBesar" score="10" date="2024-01-28">Yubaba palanya gede banget kayak ondel-ondel marah, kerjanya meres tenaga anak kecil buat ngosek kamar mandi dewa lumpur yang bau banget.</review>
+      <review user="BolaBuluDebu" score="8" date="2024-04-22">Susuwatari atau bola debu pembawa batu bara itu gemes banget suka makan permen bintang, beda sama debu rumah saya yang bikin bersin.</review>
+      <review user="KeretaAirMisterius" score="9" date="2024-03-05">Adegan naik kereta di atas air bersama No Face dan tikus gendut itu sangat menenangkan jiwa, visual pantulan awannya indah banget gila.</review>
+      <review user="SungaiKotorDibersihin" score="10" date="2024-02-14">Dewa sungai yang dikira dewa lumpur bau kotoran itu ngasih pelajaran buat nggak buang sepeda bekas dan kulkas ke aliran sungai desa.</review>
+      <review user="CapTandaTanganKontrak" score="9" date="2024-05-02">Nama Chihiro dicuri dan diganti jadi Sen, ini ngingetin saya susahnya ngurus ganti nama di kelurahan yang prosesnya panjang dan super ribet.</review>
+      <review user="PemandianAirPanasDewa" score="10" date="2024-01-10">Animasi Ghibli yang mahakarya banget, setiap detail dunianya magis parah, memanjakan mata dan membuat kita percaya keajaiban masih ada di sudut dunia.</review>
+    </reviews>
+  </film>
+  <film id="10">
+    <title>Poor Things</title>
+    <year>2023</year>
+    <genre>Drama</genre>
+    <duration>141</duration>
+    <director>Yorgos Lanthimos</director>
+    <synopsis>Bella Baxter, seorang wanita yang dihidupkan kembali oleh seorang ilmuwan eksentrik dengan otak bayi, melarikan diri bersama seorang pengacara untuk menjelajahi dunia dan mendapati kebebasan, kesenangan, dan pemikiran kritis.</synopsis>
+    <rating>8.0</rating>
+    <votes>1102</votes>
+    <poster>https://image.tmdb.org/t/p/original/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg</poster>
+    <trailer>https://www.youtube.com/embed/RlbR5N6veqw</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="OtakKeseleo" score="9" date="2024-05-20">Nonton Emma Stone jalan kayak balita kesurupan itu lucunya minta ampun, aktingnya beneran totalitas tanpa batas melampaui logika akal sehat manusia normal.</review>
+      <review user="KueTarTelurGosong" score="8" date="2024-04-30">Gara-gara adegan makan kue tar telur portugis terus-terusan, saya langsung lari ke toko kue terdekat buat beli segerobak saking ngilernya parah.</review>
+      <review user="BebekMandiLumpur" score="10" date="2024-02-15">Desain bajunya aneh-aneh banget kayak gorden ruang tamu nenek saya yang dijahit ulang pakai mesin jahit rusak peninggalan zaman purba penjajahan.</review>
+      <review user="MarkRuffaloNangis" score="9" date="2024-03-12">Karakter Duncan Wedderburn itu definisi cowok red flag yang ngeselinnya sampai ke ubun-ubun, untung kena mental dihajar kenyataan hidup oleh Bella.</review>
+      <review user="FrankensteinGaul" score="8" date="2024-01-20">Dokter Godwin Baxter mukanya serem banget penuh jahitan kayak boneka chucky, tapi aslinya kebapakan banget sayang sama anak angkat hasil eksperimennya.</review>
+      <review user="KapalPesiarMabuk" score="10" date="2024-05-01">Adegan di kapal pesiar bikin saya nyadar kalau orang kaya zaman dulu kerjanya cuma ngobrolin filosofi sambil pamer baju aneh super mahal.</review>
+      <review user="MataKecolokGarpu" score="9" date="2024-04-10">Film ini punya visual yang terlalu berwarna-warni sampai mata saya rasanya mau copot karena silau melihat langit artifisial yang kelewat estetik.</review>
+      <review user="BukuFilsafatRobek" score="8" date="2024-02-28">Perkembangan karakter Bella dari yang otaknya kosong melompong jadi lebih pinter dari profesor kampus itu adalah proses evolusi paling absurd sepanjang masa.</review>
+      <review user="TukangJahitGila" score="10" date="2024-03-25">Saya masih mikir gimana caranya memindahkan otak bayi ke kepala orang dewasa tanpa bikin kepalanya meledak, beneran di luar nalar medis.</review>
+      <review user="LompatKodokBatu" score="9" date="2024-01-15">Tarian aneh Bella di lantai dansa itu kayak gabungan antara orang senam aerobik dan orang yang lagi kram otot kaki stadium akhir.</review>
+      <review user="KatakRebusAnget" score="8" date="2024-05-18">Kalau saya jadi asisten dokternya, mending saya resign aja buka warung pecel lele daripada tiap hari ngurusin eksperimen gila potong-potong mayat.</review>
+      <review user="GordenJendelaKuno" score="10" date="2024-04-05">Setiap sudut kota di film ini bentuknya distorsi semua kayak pakai lensa fisheye murahan, bikin kepala pusing tapi entah kenapa malah nagih.</review>
+      <review user="BajuBalonUdara" score="9" date="2024-02-10">Lengan baju Bella gedenya ngalahin balon udara, kalau dipakai buat terbang ke luar angkasa kayaknya bisa deh menembus atmosfer bumi sekalian.</review>
+      <review user="SandalJepitSebelah" score="8" date="2024-03-08">Perjalanan mencari jati diri yang sangat berani dan tidak malu-malu mengeksplorasi sisi tergelap manusia dengan balutan komedi gelap yang sangat kental.</review>
+      <review user="OtakUdangGoreng" score="10" date="2024-01-22">Coba aja ada sekuelnya, pasti bakal lebih gila lagi ngelihat Bella Baxter buka praktek dokter hewan campuran alien dan dinosaurus purba.</review>
+      <review user="RambutPanjangHitam" score="9" date="2024-05-12">Yorgos Lanthimos emang sutradara sinting, bisa-bisanya bikin film seaneh ini tapi dapet piala Oscar banyak banget sampai tumpah ruah ke lantai.</review>
+      <review user="KamusBahasaBayi" score="8" date="2024-04-15">Cara bicara Bella yang kaku dan lugas itu sangat jujur, ngingetin saya sama anak kecil yang suka bongkar aib orang tuanya sendiri.</review>
+      <review user="BurungCamarTerbang" score="10" date="2024-02-05">Pemandangan kota Lisbon di film ini bikin saya pengen liburan ke sana walau saldo ATM isinya cuma cukup buat beli tiket angkot.</review>
+      <review user="KacamataBagusKekinian" score="9" date="2024-03-18">Si jenderal tua yang mau mengurung Bella itu pantas banget dapet hukuman jadi kambing, biar tahu rasa dikunyah rumput tiap hari selamanya.</review>
+      <review user="GitarSpanyolPatah" score="8" date="2024-01-10">Soundtracknya yang bunyi melengking nyeleneh itu bikin suasana makin absurd, serasa masuk ke wahana rumah hantu yang isinya badut sirkus semua.</review>
+      <review user="KertasKosongBermotif" score="10" date="2024-05-25">Menonton ini ibarat makan permen rasa durian campur jengkol, baunya aneh, rasanya aneh, tapi lu nggak bisa berhenti ngunyah sampai habis.</review>
+      <review user="DokterGigiOmpong" score="9" date="2024-04-20">Adegan bedah mayat di kelas itu cukup bikin mual, mending nonton orang makan mukbang usus sapi mentah daripada lihat anatomi tubuh berantakan.</review>
+      <review user="PianoRusakSenarnya" score="8" date="2024-02-22">Film ini ngajarin bahwa kebebasan itu harganya mahal, harus ngelewatin patah hati, ditipu buaya darat, sampai akhirnya bisa mandiri berdiri sendiri.</review>
+      <review user="KopiItemKental" score="10" date="2024-03-30">Pesan feminisme di film ini sangat kuat tapi disampaikan dengan cara yang sangat nyeleneh dan out of the box melebihi batas standar.</review>
+      <review user="KipasKertasKardus" score="9" date="2024-01-28">Nggak heran Emma Stone menang Oscar, dia bisa meranin karakter bayi tolol sampai jadi wanita intelektual kelas atas cuma dalam dua jam.</review>
+      <review user="LampuTamanMati" score="8" date="2024-05-08">Setiap karakter punya keanehannya masing-masing, nggak ada satupun yang waras di film ini, cocok buat penonton yang suka mempertanyakan arti kewarasan.</review>
+      <review user="BukuHarianRahasia" score="10" date="2024-04-12">Saya ketawa ngakak pas Bella ngelempar bayi di taman karena berisik, sebuah pikiran impulsif yang sering terlintas tapi nggak pernah berani dilakuin.</review>
+      <review user="KunciPintuMacet" score="9" date="2024-02-12">Dunia ciptaan Lanthimos bener-bener kayak lukisan surealis Salvador Dali yang tiba-tiba dikasih nyawa lalu disuruh main film komedi tragedi yang memusingkan.</review>
+      <review user="MejaMakanBunder" score="8" date="2024-03-02">Interaksi antara Bella dan orang-orang miskin di Aleksandria itu membuka matanya lebar-lebar tentang kekejaman dunia nyata yang selama ini disembunyikan darinya.</review>
+      <review user="RumahKacaPecah" score="10" date="2024-01-05">Visual hitam putih di awal film sangat merepresentasikan pikiran Bella yang masih tertutup, lalu berubah warna saat dia mulai melihat dunia luar.</review>
+      <review user="JamDindingBerdentang" score="9" date="2024-05-22">Durasi 141 menit kerasa cepet banget saking asiknya ngikutin tingkah pola Bella yang nggak bisa ditebak kayak cuaca di musim pancaroba.</review>
+      <review user="TopiPenyihirBolong" score="8" date="2024-04-25">Saya masih trauma melihat desain hewan-hewan hibrida ciptaan dr. Baxter, bayangin ada anjing berkepala ayam lari-lari di halaman depan rumahmu sendiri.</review>
+      <review user="SapuLidiPendek" score="10" date="2024-02-25">Mark Ruffalo berhasil membuang jauh-jauh image Hulk-nya, di sini dia jadi pria hidung belang yang cengengnya minta ampun kalau lagi galau.</review>
+      <review user="GembokBerkaratKeras" score="9" date="2024-03-15">Sebuah sindiran keras untuk pria yang suka mengontrol wanita, pada akhirnya mereka akan ditinggalkan dan menjadi pecundang sejati yang merana sendirian.</review>
+      <review user="SepatuKacaRetak" score="8" date="2024-01-18">Kalau saya jadi suami aslinya Bella yang jenderal itu, saya udah nyerah duluan ngadepin istri yang otaknya udah direset ke pengaturan pabrik.</review>
+      <review user="TintaPenaBocor" score="10" date="2024-05-05">Poor Things bukan untuk semua umur dan kalangan, butuh pikiran yang terbuka lebar selebar jalan tol biar bisa nikmatin setiap adegan gilanya.</review>
+      <review user="KertasBungkusNasi" score="9" date="2024-04-02">Willem Dafoe sebagai ilmuwan gila itu casting yang sangat sempurna, mukanya aja udah kelihatan kayak orang yang suka ngoleksi tulang belulang manusia.</review>
+      <review user="TasKresekIndomaret" score="8" date="2024-02-08">Setiap percakapan di film ini dipenuhi dengan kosakata baku yang terdengar puitis sekaligus konyol karena diucapkan dalam konteks yang sangat absurd sekali.</review>
+      <review user="KursiGoyangNenek" score="10" date="2024-03-22">Saya paling suka endingnya, Bella santai duduk di taman sambil minum teh bareng mantan-mantannya yang udah tunduk patuh sama aturan barunya.</review>
+      <review user="PayungBocorAtas" score="9" date="2024-01-25">Kualitas produksinya top tier, dari tata rias rambut sampai desain set kotanya bener-bener memanjakan mata yang haus akan keindahan visual nyeleneh.</review>
+      <review user="BantalGulingEmpuk" score="8" date="2024-05-15">Bagi yang gampang tersinggung mending skip film ini, banyak adegan yang menabrak norma sosial dengan kecepatan tinggi tanpa pake rem tangan sedikitpun.</review>
+      <review user="CangkirTehPecah" score="10" date="2024-04-18">Emma Stone, Mark Ruffalo, dan Willem Dafoe menciptakan trio karakter paling memorable di tahun ini, chemistry mereka dapet banget lucunya natural abis.</review>
+      <review user="PisauDapurKarat" score="9" date="2024-02-28">Film ini sukses bikin saya mikir tentang eksistensialisme manusia sambil ketawa ngakak melihat tingkah laku karakter yang di luar nalar sehat komedi.</review>
+      <review user="LampuNeonBerkedip" score="8" date="2024-03-10">Yorgos Lanthimos adalah dewa perfilman absurd, setiap karyanya selalu berhasil bikin penonton melongo bingung tapi tetap ngasih standing ovation saking bagusnya.</review>
+      <review user="TaplakMejaKotak" score="10" date="2024-01-12">Satu kalimat buat Poor Things: Tontonan liar yang akan membawamu ke dunia di mana batasan moral hanyalah omong kosong belaka bagi penciptanya.</review>
+    </reviews>
+  </film>
+
+  <film id="11">
+    <title>Mad Max: Fury Road</title>
+    <year>2015</year>
+    <genre>Action</genre>
+    <duration>120</duration>
+    <director>George Miller</director>
+    <synopsis>Di gurun pasca-apokalipsi yang gersang, Max Rockatansky bergabung dengan Imperator Furiosa dalam pelarian maut melintasi padang pasir untuk membebaskan istri-istri seorang tiran kejam bernama Immortan Joe.</synopsis>
+    <rating>8.5</rating>
+    <votes>1654</votes>
+    <poster>https://image.tmdb.org/t/p/original/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg</poster>
+    <trailer>https://www.youtube.com/embed/hEJnMQG9ev8</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="DebuKnalpotRacing" score="10" date="2024-02-20">Ini film isinya cuma orang kejar-kejaran pakai mobil butut di tengah gurun, tapi serunya ngalahin nonton balap karung pas lomba agustusan di kampung.</review>
+      <review user="GitarApiMenyala" score="9" date="2024-01-30">Tukang main gitar pakai piyama merah yang bisa nyemburin api itu adalah musisi paling hardcore di alam semesta, konsernya berjalan di atas truk ngebut.</review>
+      <review user="KeringatBercampurPasir" score="10" date="2024-04-15">Nonton film ini bawaannya haus terus, lihat air disiram-siram ke tanah bikin jiwa pelitku menjerit nangis meratapi sumber daya yang terbuang sia-sia belaka.</review>
+      <review user="SemprotanCatSilver" score="8" date="2024-03-05">War boy yang semprot cat perak ke mulut sebelum mati itu kelakuannya di luar nurul, mungkin dia pikir itu penyegar bau mulut instan beracun.</review>
+      <review user="BensinEceranHabis" score="9" date="2024-05-10">Bumi udah kiamat, air susah, tapi anehnya bensin tumpah-tumpah buat balapan mobil modifikasi yang knalpotnya berisik bikin polusi udara semakin parah banget.</review>
+      <review user="SetirMobilCopot" score="10" date="2024-02-12">Immortan Joe pakai topeng gigi kuda nyeremin banget, pantesan istrinya pada kabur semua mending hidup di gurun daripada sama kakek-kakek tukang monopoli air.</review>
+      <review user="FuriosaBotakGahar" score="9" date="2024-01-18">Charlize Theron botak pakai tangan besi tapi tetep kelihatan cantik dan garang, coba saya yang botak pasti dikira tuyul nyasar lagi cari majikan baru.</review>
+      <review user="TomHardyBergumam" score="8" date="2024-04-22">Max dari awal sampai pertengahan cuma jadi tiang infus berjalan buat Nux, kasihan banget hero utamanya malah dijadiin gantungan kunci di kap mobil depan.</review>
+      <review user="BadaiPasirGila" score="10" date="2024-03-10">Adegan masuk ke dalam badai pasir raksasa yang ada petir merahnya itu gokil parah, visual efeknya bikin mata melotot tanpa berani berkedip sedetikpun.</review>
+      <review user="AirSusuIbuGurun" score="9" date="2024-05-05">Pabrik susu manusia itu konsep yang sangat menjijikkan sekaligus brilian buat nunjukin betapa rusaknya peradaban di masa depan saat semua kebutuhan pokok langka.</review>
+      <review user="MobilDuriLandak" score="8" date="2024-02-28">Mobil-mobil suku landak yang penuh duri besi tajam itu kalau parkir di Jakarta pasti aman banget dari tukang congkel spion karena takut tertusuk.</review>
+      <review user="LedakanTrukTangki" score="10" date="2024-01-05">Film aksi paling padat dan intens yang pernah dibuat oleh umat manusia, 120 menit berasa kayak dilempar ke dalam mesin cuci yang lagi muter kencang.</review>
+    </reviews>
+  </film>
+
+  <film id="12">
+    <title>Hereditary</title>
+    <year>2018</year>
+    <genre>Horror</genre>
+    <duration>127</duration>
+    <director>Ari Aster</director>
+    <synopsis>Setelah kematian nenek mereka yang misterius, keluarga Graham mulai mengungkap rahasia kelam yang menghantui silsilah mereka — sesuatu yang jauh lebih gelap dan kuno dari yang bisa mereka bayangkan.</synopsis>
+    <rating>8.1</rating>
+    <votes>1298</votes>
+    <poster>https://image.tmdb.org/t/p/original/4GFPuL14eXi66V96xBWY73Y9PfR.jpg</poster>
+    <trailer>https://www.youtube.com/embed/V6wWKNij_1M</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="KepalaPutusKenaTiang" score="10" date="2024-03-25">Adegan Charlie kepalanya terbang kena tiang listrik itu sumpah bikin syok berat, seisi bioskop langsung hening kayak lagi mengheningkan cipta saat upacara bendera.</review>
+      <review user="SuaraLidahKlik" score="9" date="2024-02-18">Semenjak nonton ini, kalau ada temen nyembunyikan lidah dan bunyiin 'klik' di tempat gelap pasti langsung saya lempar pakai asbak biar dia diam seketika.</review>
+      <review user="IbuNemplokPlafon" score="10" date="2024-04-10">Lihat ibunya manjat-manjat di plafon kamar tanpa suara bener-bener terror sejati, ngalahin jumpscare hantu lokal yang cuma modal teriak kencang bedak putih tebal.</review>
+      <review user="MiniaturRumahKutukan" score="8" date="2024-01-22">Hobi bikin miniatur rumah ternyata bisa jadi sarana buat mengundang sekte sesat penyembah iblis Paimon, besok-besok mending hobi ngumpulin perangko aja yang lebih aman damai.</review>
+      <review user="BukuHarianTerbakar" score="9" date="2024-05-15">Toni Collette nangis meratap pas tahu anaknya mati itu aktingnya sangat menyayat hati, piala Oscar bener-bener buta karena nggak masukin dia ke nominasi sama sekali.</review>
+      <review user="KacangAlergiMati" score="10" date="2024-03-05">Pesan moral: kalau punya alergi kacang parah jangan pernah makan kue sembarangan di pesta orang, mending bawa bekal nasi uduk dari rumah sendiri aja.</review>
+      <review user="RajaPaimonNyasar" score="8" date="2024-02-14">Raja iblis kok nyasarnya ke tubuh anak SMA yang penampilannya culun banget, ekspektasiku iblis itu ngerasukin presiden atau miliarder biar gampang nguasai dunia dengan cepat.</review>
+      <review user="NenekSekteSesat" score="9" date="2024-04-28">Nenek yang udah mati kok mayatnya bisa dipindah-pindah ke loteng rumah, ini bau bangkainya pasti ngalahin bau sampah pasar induk yang lupa nggak diangkut seminggu.</review>
+      <review user="GaliKuburanSendiri" score="10" date="2024-01-10">Ari Aster adalah psikopat berkedok sutradara, film ini berhasil meninggalkan trauma mendalam yang bikin saya nggak berani tidur sendirian menatap langit-langit kamar saat malam tiba.</review>
+      <review user="BapakTerbakarApi" score="8" date="2024-05-02">Bapaknya yang paling waras di keluarga malah mati konyol kebakar gara-gara buang buku ke perapian, emang orang baik selalu mati duluan di film horor nyebelin.</review>
+      <review user="BurungMatiDipotong" score="9" date="2024-03-12">Charlie motong kepala burung mati pakai gunting sekolah itu red flag banget, kalau ada murid kayak gini di kelasku mending aku pindah sekolah antar provinsi.</review>
+      <review user="RumahPohonMengerikan" score="10" date="2024-02-05">Ending di rumah pohon dengan patung kepala buntung itu adalah puncak dari segala kegilaan visual yang sangat mengganggu kesehatan mental bagi penonton awam lemah jantung.</review>
+    </reviews>
+  </film>
+
+  <film id="13">
+    <title>No Other Choice</title>
+    <year>2025</year>
+    <genre>Thriller</genre>
+    <duration>140</duration>
+    <director>Park Chan Wook</director>
+    <synopsis>After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.</synopsis>
+    <rating>8.1</rating>
+    <votes>1298</votes>
+    <poster>https://image.tmdb.org/t/p/original/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg</poster>
+    <trailer>https://www.youtube.com/embed/HKZpuG_ezvY</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="HusadaBukanDokter" score="10" date="2024-03-25">Film Korea kesukaan saya, ceritanya tentang bapak-bapak dipecat yang ngamuknya parah banget sampai bikin bulu kuduk merinding ketakutan ngebayangin kejadian aslinya di dunia nyata kita.</review>
+      <review user="NawfalRapiBanget" score="9" date="2024-02-18">Ga nyangka banget jalan ceritanya bakal segelap ini, awalnya kasihan lihat dia nganggur eh lama-lama ngeri sendiri lihat dia berubah jadi monster berdarah dingin yang bengis.</review>
+      <review user="PNJLemburTerus" score="10" date="2024-04-01">Nonton ini bikin saya bersyukur punya kerjaan walau gajinya pas-pasan, daripada dipecat terus jadi psikopat gara-gara stres lamaran kerja ditolak HRD puluhan kali berturut-turut.</review>
+      <review user="KertasHVSKosong" score="8" date="2024-05-10">Pesan moralnya jelas, jangan suka merendahkan orang yang lagi jatuh miskin atau kehilangan jabatan, karena orang nekat itu lebih berbahaya daripada singa lapar di hutan liar.</review>
+      <review user="BosGalakBotak" score="9" date="2024-01-15">Park Chan Wook memang masternya bikin film balas dendam, visualnya rapi banget tapi isinya brutal dan bikin penonton ikut merasakan keputusasaan sang karakter utama yang tersiksa.</review>
+      <review user="MesinPemotongKertas" score="10" date="2024-03-12">Adegan pabrik kertas yang sunyi berubah jadi arena pembantaian itu sangat artistik, darah merah kontras banget menyiram gulungan kertas putih yang siap dikirim ke percetakan besar.</review>
+      <review user="SuratPecatKusut" score="9" date="2024-02-05">Setiap tusukan yang dia berikan ke mantan bosnya berasa kayak pelampiasan kekesalan seluruh budak korporat di muka bumi yang sering ditindas tanpa ampun oleh atasan semena-mena.</review>
+      <review user="GajiDipotongPajak" score="8" date="2024-04-20">Aktor utamanya main bagus banget, wajah lelah khas bapak-bapak umur lima puluhan yang kehilangan harga dirinya terpancar jelas dari kantung matanya yang hitam legam kurang tidur.</review>
+      <review user="HRDKillerSenyum" score="10" date="2024-05-25">Momen pas dia dilarang masuk ke pabrik yang udah dia bangun belasan tahun itu nyesek banget, wajar sih kalau akhirnya kewarasannya putus layaknya benang layangan tipis.</review>
+      <review user="TintaPrinterHabis" score="9" date="2024-01-28">Pacing filmnya agak lambat di awal untuk membangun simpati kita, tapi begitu dia mengambil senjata pertama, ritmenya langsung ngegas kayak motor balap tanpa rem blong.</review>
+      <review user="KopiSachetMurah" score="8" date="2024-03-08">Sinematografinya gelap dan suram, sangat pas menggambarkan kondisi pasar tenaga kerja masa kini yang sangat kejam tidak kenal ampun membuang pekerja senior demi anak muda murah.</review>
+      <review user="LokerTerkunciRapat" score="10" date="2024-02-22">Coba aja dia dikasih pesangon yang layak, pasti tragedi berdarah ini nggak akan terjadi dan dia bisa buka usaha ternak lele dengan damai sentosa di kampung halamannya.</review>
+      <review user="CVBerdebu" score="9" date="2024-04-12">Film ini seolah menjadi tamparan keras bagi para eksekutif perusahaan yang memandang pekerjanya hanya sebagai angka dalam laporan keuangan tanpa melihat sisi kemanusiaan sama sekali.</review>
+      <review user="WawancaraKerjaGagal" score="10" date="2024-05-02">Akhir ceritanya beneran mindblowing, tidak ada keadilan yang mutlak di dunia ini, yang kuat menindas yang lemah sampai yang lemah berubah menjadi iblis pembawa malapetaka hancur lebur.</review>
+      <review user="DasidiputarCekik" score="8" date="2024-01-10">Kekerasan dalam film ini tidak ditunjukkan hanya demi gaya, tapi sebagai bentuk ledakan frustrasi dari sistem kelas pekerja yang terpinggirkan oleh roda kapitalisme modern rakus.</review>
+      <review user="KartuAksesPatah" score="9" date="2024-03-30">Aku gak bisa berhenti merinding melihat senyum sinisnya setelah berhasil membalaskan dendam, ini bukan kebahagiaan tapi hilangnya sisa-sisa jiwa manusia waras yang telah hancur total.</review>
+      <review user="BukuKasKosong" score="10" date="2024-02-14">Menjadi pengangguran di usia senja itu menakutkan, dan film ini berhasil memvisualisasikan ketakutan tersebut menjadi sebuah thriller yang bikin jantung berdebar gak karuan terus menerus tiada henti.</review>
+      <review user="SapuLantaiPabrik" score="8" date="2024-04-28">Setiap alat di pabrik kertas diubah jadi senjata mematikan yang sangat kreatif, membuat film ini sedikit mengingatkan pada seri Saw tapi dengan plot yang lebih berbobot cerdas.</review>
+      <review user="BaskomDarahSegar" score="9" date="2024-05-18">Ketegangan dibangun pelan-pelan seperti air mendidih dalam panci tertutup, dan saat meledak, dampaknya menyapu bersih semua harapan yang tersisa bagi para karakter di dalamnya tanpa sisa.</review>
+      <review user="MejaKerjaDigusur" score="10" date="2024-01-05">Karya masterpiece lainnya dari Park Chan Wook yang sukses mencampur adukkan tema sosial dengan genre kekerasan ekstrim tanpa kehilangan sentuhan artistiknya yang sangat khas dan unik berkelas.</review>
+      <review user="JamIstirahatHabis" score="9" date="2024-03-15">Kritik sosial yang dibalut darah tebal, sebuah tontonan wajib bagi kalian penikmat film thriller psikologis Asia yang suka mempertanyakan moralitas batas antara benar dan salah di dunia nyata.</review>
+      <review user="TeleponRumahPutus" score="8" date="2024-02-28">Adegan dia duduk diam di meja makannya yang kosong sambil menatap pisau tajam bener-bener shot yang paling mengerikan namun indah secara bersamaan, memancarkan aura keputusasaan mutlak kelam.</review>
+      <review user="JasHujanPlastik" score="10" date="2024-04-15">Pemeran pendukungnya juga gila-gila aktingnya, terutama karakter manajer muda yang songong itu minta banget ditabok pakai gulungan kertas seberat lima ton yang biasa dipakai untuk koran harian.</review>
+      <review user="KalkulatorRusak" score="9" date="2024-05-08">Plot twist menjelang akhir film itu berhasil membuat penonton merasa bersalah karena sudah bersimpati dengan seorang pembunuh keji yang kehilangan akal sehatnya akibat kejamnya dunia.</review>
+      <review user="GuntingKertasTumpul" score="8" date="2024-01-22">Setelah nonton The Vengeance Trilogy, ini adalah tambahan yang sempurna untuk melengkapi koleksi film balas dendam buatan Korea Selatan yang selalu berhasil memukau mata dunia perfilman.</review>
+      <review user="LampuPabrikBerkedip" score="10" date="2024-03-05">Gila banget, saya sampai teriak pas dia ngunci pintu pabrik dari dalam, sudah ketahuan bakal ada mandi darah besar-besaran yang gak bisa dihindari lagi oleh siapapun di sana.</review>
+      <review user="StempelPerusahaanPalsu" score="9" date="2024-02-12">Tidak banyak dialog yang diucapkan, tapi bahasa tubuh sang aktor utama sudah menceritakan segalanya tentang kepedihan pria paruh baya yang tak punya pilihan lain selain melawan balik keras.</review>
+      <review user="PenjagaGerbangTidur" score="8" date="2024-04-22">Saya suka cara sutradara mengambil angle kamera dari bawah kertas yang sedang dipotong, memberikan perspektif unik seakan kita ikut terpotong oleh kejamnya mesin pemecat massal tersebut.</review>
+      <review user="SepatuSafetyBocor" score="10" date="2024-05-12">Soundtracknya menggunakan musik klasik yang sangat kontras dengan pembantaian di layar, menciptakan suasana ironis yang sering kita temukan di film-film Korea bergenre serupa yang mengerikan gelap.</review>
+      <review user="HelmProyekKuning" score="9" date="2024-01-18">Benar-benar definisi dari film yang tidak akan pernah mau saya tonton ulang, bukan karena jelek, tapi karena beban mentalnya terlalu berat untuk ditanggung dua kali berturut-turut capek.</review>
+      <review user="KartonKardusBekas" score="8" date="2024-03-22">Menyaksikan transformasi seseorang dari pria penurut menjadi psikopat ganas itu sangat mengganggu, mengingatkan kita bahwa ada monster yang bersembunyi di dalam diri setiap orang normal biasa.</review>
+      <review user="StaplesTembusKulit" score="10" date="2024-02-05">Kalian pikir ini cuma film bunuh-bunuhan biasa? Salah besar, ini adalah studi karakter yang mendalam tentang hilangnya martabat manusia di tengah himpitan ekonomi yang sangat kejam tidak memihak.</review>
+      <review user="DokumenRahasiaBocor" score="9" date="2024-04-08">Emosinya dapet banget, apalagi pas dia mencoba telepon istrinya terakhir kali tapi gak diangkat, itu adalah momen titik balik dimana dia memutuskan untuk menghancurkan segalanya lebur tanpa sisa.</review>
+      <review user="KipasAnginBesi" score="8" date="2024-05-20">Sutradaranya jenius banget manfaatin setting ruang terbatas di dalam pabrik untuk menciptakan nuansa klaustrofobik yang bikin napas ikutan sesak layaknya terkurung di ruangan kedap udara pengap.</review>
+      <review user="LantaiPabrikLicin" score="10" date="2024-01-25">Mungkin ini adalah film terbaik tahun ini, ceritanya rapi, aktingnya juara, dan eksekusi akhirnya bener-bener memberikan kepuasan yang tidak nyaman tapi membuat kita merenung panjang akan makna keadilan.</review>
+      <review user="KacaJendelaPecah" score="9" date="2024-03-18">Jangan biarkan anak di bawah umur menonton ini, kekerasannya sangat grafis dan realistis tanpa efek CGI berlebihan yang justru membuatnya terlihat semakin menakutkan dan mengancam jiwa penonton awam.</review>
+      <review user="SuratPeringatanTiga" score="8" date="2024-02-10">Bagi yang bosan dengan film pahlawan super, The No Other Choice memberikan tontonan yang membumi tentang anti-hero dari kelas pekerja yang menuntut haknya dengan cara berdarah-darah tiada ampun.</review>
+      <review user="KunciInggrisKeras" score="10" date="2024-04-25">Saya rasa film ini bakal jadi bahan diskusi hangat di kalangan sosiolog tentang fenomena krisis paruh baya dan dampak lay-off massal yang sedang marak terjadi di zaman sekarang serba sulit.</review>
+      <review user="TopengPelindungLuka" score="9" date="2024-05-05">Setiap shot dan framing di film ini seolah berbicara, memperlihatkan betapa kesepiannya karakter utama di tengah keramaian kota Seoul yang dingin dan apatis terhadap penderitaan kaum minoritas tertindas.</review>
+      <review user="AirMinumGalonHabis" score="8" date="2024-01-12">Berdurasi lebih dari dua jam tapi tidak terasa membosankan sama sekali, karena ketegangan yang dibangun sangat konstan dan memuncak pada ending yang bikin melongo tanpa bisa berucap sepatah kata pun.</review>
+      <review user="MesinFotokopiMacet" score="10" date="2024-03-02">Saya salut dengan keberanian pembuat film dalam mengangkat isu yang sensitif ini dengan cara yang sangat ekstrem namun tetap elegan secara sinematik, kualitas Korea Selatan memang gak pernah bohong soal ini.</review>
+      <review user="LiftBarangMacet" score="9" date="2024-02-25">Rasa sakit yang dirasakan sang tokoh utama bisa tembus ke layar bioskop, membuatku ikut menangis kasihan sekaligus bergidik ngeri melihat apa yang bisa dilakukan manusia ketika sudah terpojok gak ada jalan.</review>
+      <review user="BajuSeragamKoyak" score="8" date="2024-04-10">Koreografi pertarungannya tidak terlihat seperti bela diri profesional, melainkan pertarungan jalanan yang kotor, brutal, dan penuh keputusasaan ala orang mabuk yang sedang bertaruh nyawa di lorong sempit berbau pesing kuat.</review>
+      <review user="ObatPusingSakit" score="10" date="2024-05-28">Sebuah tamparan keras buat kita semua agar lebih memanusiakan manusia, karena jika tidak, kehancuranlah yang akan menjadi konsekuensi logis dari sikap egois dan serakah para penguasa rakus harta tak kenal mati.</review>
+      <review user="KalenderTahunLalu" score="9" date="2024-01-08">Gila, ngerinya sampai ke bawa mimpi pas tidur malam, bayangin bos di kantor mendadak ngamuk bawa pisau potong kertas gede gara-gara saham perusahaannya anjlok parah gak karuan hancur lebur seketika harganya.</review>
+    </reviews>
+  </film>
+
+  <film id="14">
+    <title>Koe No Katachi</title>
+    <year>2016</year>
+    <genre>Animation</genre>
+    <duration>129</duration>
+    <director>Naoko Yamada</director>
+    <synopsis>Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older, wiser Shouya, tormented by his past behaviour, decides he must see Shouko once more. He wants to atone for his sins, but is it already too late...?</synopsis>
+    <rating>8.4</rating>
+    <votes>1298</votes>
+    <poster>https://image.tmdb.org/t/p/original/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg</poster>
+    <trailer>https://www.youtube.com/embed/nfK6UgLra7g</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="HusadaPemudaTegar" score="10" date="2024-03-25">Saya udah nonton sampai empat kali dan selalu dapat makna baru setiap kali menonton, film ini sangat indah dan berhasil bikin air mata saya mengalir deras kayak keran bocor tak tertutup rapat.</review>
+      <review user="JunainTukangNangis" score="9" date="2024-02-18">Saya setuju banget sama Husada, anime ini bukan sekedar romance picisan, tapi tentang penebusan dosa dan bagaimana kita belajar memaafkan diri sendiri yang penuh dengan kekurangan fatal masa lalu kelam.</review>
+      <review user="TisuBasahAirMata" score="10" date="2024-04-10">Beli tisu segepok habis semua buat ngelap ingus gara-gara sedih ngelihat Shouko dibully sampai alat bantu dengarnya dibuang gitu aja sama anak-anak SD yang otaknya belum jalan bener nakal parah abis.</review>
+      <review user="BawangMerahKupas" score="8" date="2024-01-22">Ueno itu karakter anime cewek paling ngeselin sejagat raya, pengen aku masuk ke dalam tv terus jewer kupingnya biar dia tahu rasa sakitnya jadi orang yang diasingkan tanpa alasan jelas jahatnya minta ampun.</review>
+      <review user="TandaXDiMuka" score="9" date="2024-05-15">Visual tanda silang di wajah orang-orang itu bener-bener jenius buat ngegambarin anxiety-nya si Ishida yang takut menatap dunia karena rasa bersalah yang menghantuinya bertahun-tahun lamanya sendirian tanpa teman mengerti perasaannya.</review>
+      <review user="RotiTawarRotiBakar" score="10" date="2024-03-05">Adegan pas mereka ngasih makan ikan koi di jembatan itu estetik parah, Kyoto Animation emang dewanya bikin gambar pemandangan kota dan air yang jernih memanjakan mata lelah kita melihat keindahan nyata animasinya.</review>
+      <review user="AlatBantuDengarPatah" score="8" date="2024-02-14">Saya sempet mau banting hp pas adegan kembang api di mana Shouko nyoba lompat dari balkon, untung Ishida gercep nyelamatin walau akhirnya dia sendiri yang jatuh hampir mati konyol berkorban nyawa.</review>
+      <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
+      <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
+      <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
+  <film id="15">
+    <title>The Godfather</title>
+    <year>1972</year>
+    <genre>Drama</genre>
+    <duration>180</duration>
+    <director>Francis Ford Coppola</director>
+    <synopsis>The Godfather is a sprawling crime drama about the Corleone family, a powerful New York Mafia dynasty. Spanning the years 1945 to 1955, it follows the aging patriarch, Don Vito Corleone, and the tragic moral descent of his youngest son, Michael, who transforms from a reluctant war hero into a ruthless crime boss.</synopsis>
+    <rating>8.7</rating>
+    <votes>1298</votes>
+    <poster>https://www.themoviedb.org/t/p/original/gk1IvgCYg6v5H5cps21ILSOrYER.jpg</poster>
+    <trailer>https://www.youtube.com/embed/1x0GpEZnwa8?si=uA-qnMDTHljpXr0t</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="HusadaPemudaTegar" score="10" date="2024-03-25">Saya udah nonton sampai empat kali dan selalu dapat makna baru setiap kali menonton, film ini sangat indah dan berhasil bikin air mata saya mengalir deras kayak keran bocor tak tertutup rapat.</review>
+      <review user="JunainTukangNangis" score="9" date="2024-02-18">Saya setuju banget sama Husada, anime ini bukan sekedar romance picisan, tapi tentang penebusan dosa dan bagaimana kita belajar memaafkan diri sendiri yang penuh dengan kekurangan fatal masa lalu kelam.</review>
+      <review user="TisuBasahAirMata" score="10" date="2024-04-10">Beli tisu segepok habis semua buat ngelap ingus gara-gara sedih ngelihat Shouko dibully sampai alat bantu dengarnya dibuang gitu aja sama anak-anak SD yang otaknya belum jalan bener nakal parah abis.</review>
+      <review user="BawangMerahKupas" score="8" date="2024-01-22">Ueno itu karakter anime cewek paling ngeselin sejagat raya, pengen aku masuk ke dalam tv terus jewer kupingnya biar dia tahu rasa sakitnya jadi orang yang diasingkan tanpa alasan jelas jahatnya minta ampun.</review>
+      <review user="TandaXDiMuka" score="9" date="2024-05-15">Visual tanda silang di wajah orang-orang itu bener-bener jenius buat ngegambarin anxiety-nya si Ishida yang takut menatap dunia karena rasa bersalah yang menghantuinya bertahun-tahun lamanya sendirian tanpa teman mengerti perasaannya.</review>
+      <review user="RotiTawarRotiBakar" score="10" date="2024-03-05">Adegan pas mereka ngasih makan ikan koi di jembatan itu estetik parah, Kyoto Animation emang dewanya bikin gambar pemandangan kota dan air yang jernih memanjakan mata lelah kita melihat keindahan nyata animasinya.</review>
+      <review user="AlatBantuDengarPatah" score="8" date="2024-02-14">Saya sempet mau banting hp pas adegan kembang api di mana Shouko nyoba lompat dari balkon, untung Ishida gercep nyelamatin walau akhirnya dia sendiri yang jatuh hampir mati konyol berkorban nyawa.</review>
+      <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
+      <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
+      <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
+  <film id="16">
+    <title>Five Nights at Freddy's</title>
+    <year>2023</year>
+    <genre>Horror</genre>
+    <duration>110</duration>
+    <director>Francis Ford Coppola</director>
+    <synopsis>A troubled security guard, Mike Schmidt, takes a desperate overnight job at the abandoned Freddy Fazbear's Pizzeria to keep custody of his younger sister. He soon discovers the restaurant's giant animatronic mascots are possessed by the vengeful ghosts of murdered children who roam and kill after dark.</synopsis>
+    <rating>7.3</rating>
+    <votes>472</votes>
+    <poster>https://www.themoviedb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg</poster>
+    <trailer>https://www.youtube.com/embed/0VH9WCFV6XQ?si=T6tJSMm1lBgaeiiR</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="HusadaPemudaTegar" score="10" date="2024-03-25">Saya udah nonton sampai empat kali dan selalu dapat makna baru setiap kali menonton, film ini sangat indah dan berhasil bikin air mata saya mengalir deras kayak keran bocor tak tertutup rapat.</review>
+      <review user="JunainTukangNangis" score="9" date="2024-02-18">Saya setuju banget sama Husada, anime ini bukan sekedar romance picisan, tapi tentang penebusan dosa dan bagaimana kita belajar memaafkan diri sendiri yang penuh dengan kekurangan fatal masa lalu kelam.</review>
+      <review user="TisuBasahAirMata" score="10" date="2024-04-10">Beli tisu segepok habis semua buat ngelap ingus gara-gara sedih ngelihat Shouko dibully sampai alat bantu dengarnya dibuang gitu aja sama anak-anak SD yang otaknya belum jalan bener nakal parah abis.</review>
+      <review user="BawangMerahKupas" score="8" date="2024-01-22">Ueno itu karakter anime cewek paling ngeselin sejagat raya, pengen aku masuk ke dalam tv terus jewer kupingnya biar dia tahu rasa sakitnya jadi orang yang diasingkan tanpa alasan jelas jahatnya minta ampun.</review>
+      <review user="TandaXDiMuka" score="9" date="2024-05-15">Visual tanda silang di wajah orang-orang itu bener-bener jenius buat ngegambarin anxiety-nya si Ishida yang takut menatap dunia karena rasa bersalah yang menghantuinya bertahun-tahun lamanya sendirian tanpa teman mengerti perasaannya.</review>
+      <review user="RotiTawarRotiBakar" score="10" date="2024-03-05">Adegan pas mereka ngasih makan ikan koi di jembatan itu estetik parah, Kyoto Animation emang dewanya bikin gambar pemandangan kota dan air yang jernih memanjakan mata lelah kita melihat keindahan nyata animasinya.</review>
+      <review user="AlatBantuDengarPatah" score="8" date="2024-02-14">Saya sempet mau banting hp pas adegan kembang api di mana Shouko nyoba lompat dari balkon, untung Ishida gercep nyelamatin walau akhirnya dia sendiri yang jatuh hampir mati konyol berkorban nyawa.</review>
+      <review user="RambutPotongPendek" score="9" date="2024-04-28">Adiknya Shouko, si Yuzuru, awalnya kelihatan tomboy nyebelin suka foto hewan mati, tapi ternyata dia yang paling care dan selalu ngelindungin kakaknya dari kerasnya dunia yang gak adil ini sejak kecil.</review>
+      <review user="BukuTulisCatatan" score="10" date="2024-01-10">Soundtracknya yang pakai suara senar bass dipukul-pukul itu sangat unik, seakan merepresentasikan bagaimana orang tuli merasakan getaran suara melalui hatinya yang terdalam menyentuh emosi penonton yang mendengar alunan nadanya.</review>
+      <review user="BahasaIsyaratCinta" score="8" date="2024-05-02">Film ini ngajarin aku pentingnya empati, kadang kita nggak sadar kata-kata atau perbuatan kecil kita bisa ninggalin luka permanen di hati orang lain yang sensitif dan rapuh layaknya kaca jatuh berkeping hancur.</review>
+    </reviews>
+  </film>
+    <film id="17">
+    <title>Rear Window</title>
+    <year>1954</year>
+    <genre>Thriller</genre>
+    <duration>112</duration>
+    <director>Alfred Hitchcock</director>
+    <synopsis>Seorang fotografer yang terbaring di kursi roda karena kaki patah menghabiskan waktu dengan mengintip tetangganya dari jendela belakang apartemennya. Kecurigaannya muncul ketika ia menduga seorang tetangga telah membunuh istrinya.</synopsis>
+    <rating>8.9</rating>
+    <votes>1876</votes>
+    <poster>https://image.tmdb.org/t/p/original/o9U7kbBLY1jtis5dnEc2V1qRsvk.jpg</poster>
+    <trailer>https://www.youtube.com/embed/m01YktiEZCw</trailer>
+    <trending>false</trending>
+    <reviews>
+      <review user="MataIntipTembokBolong" score="10" date="2024-03-20">Gila ini film ajarin saya kalau jadi tukang ngintip tetangga itu ternyata bisa ngebantu kasus pembunuhan, tapi hati-hati nanti malah diliatin balik sama si pembunuhnya yang galak.</review>
+      <review user="KakiDemasKejepit" score="9" date="2024-04-12">James Stewart kalau ngeliatin orang pakai teropong muka polosnya itu lucu banget, padahal lagi ngintip pembunuhan tapi ekspresinya kayak bocah lagi lihatin kucing kawin di atas genteng.</review>
+      <review user="KeranjangAnyamanPecah" score="10" date="2024-02-28">Adegan terakhir pas mata si pembunuh muncul tiba-tiba di balik pintu bikin jantung saya coplosat kayak bakso yang kecebur dari mangkok panas waktu mau dimakan pakai kuah.</review>
+      <review user="KevinKusumaputri" score="8" date="2024-05-05">Grace Kelly di sini cantiknya kebangetan sampai-sampai saya lupa kalau film ini sebenarnya cerita tentang pembunuhan, jadi sibuk lihat bajunya yang gonta-ganti terus setiap datang berkunjung.</review>
+      <review user="TeropongKunoBerembun" score="9" date="2024-01-18">Alfred Hitchcock emang pantas dijuluki master of suspense, saya sampai keringetan dingin padahal adegannya cuma orang di kamar mandi sikat gigi sambil cekikikan aneh.</review>
+      <review user="KursiRodaRemBlong" score="10" date="2024-03-08">Waktu si fotografer nyoba nyelamatin pacarnya dari apartemen si pembunuh pake kursi roda, itu adegan paling deg-degan melebihi pas saya main game puzzle di HP yang baterainya tinggal 5%.</review>
+      <review user="BurungKutilangMabuk" score="9" date="2024-04-22">Sepanjang film kita cuma lihat dari sudut pandang jendela itu doang, tapi suasananya berasa kayak lagi main petak umpet seumur hidup sama tetangga sebelah yang penuh misteri.</review>
+      <review user="BantalGulingGigit" score="8" date="2024-02-14">Menyaksikan pasangan suami istri di seberang sana yang lagi panas-panasnya berantem lebih seru daripada nonton sinetron tukang ojek pura-pura kaya tapi ternyata anak sultan level dewa.</review>
+      <review user="LampuKamarTidurKedip" score="10" date="2024-05-20">Hitchcock nggak perlu adegan darah-darahan atau ledakan bom untuk bikin tegang, cukup dengan kilatan lampu dan suara patahan tulang saja sudah cukup bikin merinding sepanjang malam.</review>
+      <review user="TeleskopRusakNempel" score="9" date="2024-01-30">Setelah nonton ini saya jadi waspada kalau lihat tetangga bawa pisau dan koper besar di tengah malam, siap-siap telepon polisi walau cuma bawa pisau buat motong pepaya.</review>
+      <review user="PlecitNyasarKeDapur" score="10" date="2024-03-15">Si detektif polisi yang nyebelin itu beneran nguji kesabaran, udah dikasih tahu ada pembunuhan malah bilang "Jangan jualan cerita murahan, pak".</review>
+      <review user="KameraFlashPatah" score="8" date="2024-04-05">Idenya brilliant banget: orang cacat sementara cuma bisa nonton kehidupan orang lain dari jendela, eh malah nemuin mayat dikubur di taman bunga belakang rumah.</review>
+      <review user="KotakPerhiasanPenuhUlar" score="9" date="2024-01-25">Akhirnya si pembunuh sadar lagi diintip lalu balik nyerang ke apartemen si fotografer, untung ada lampu kilat kamera butut yang dipakai buat membutakan matanya.</review>
+      <review user="SelimutBuluDomba" score="10" date="2024-05-10">Film jadul tahun 1954 tapi grafisnya tetap terlihat oke, apalagi set apartemen yang megah itu detail banget sampai ada miniatur taman mini di dalam ruangan.</review>
+      <review user="OrangCitayam" score="9" date="2024-02-22">Kalau saya jadi Grace Kelly, pasti udah mental dari balkon lantai dua kabur liat si pembunuh bengis dateng bawa pisau cukur tajam mengkilap siap menggorok leher orang.</review>
+    </reviews>
+  </film>
+
+  <film id="18">
+    <title>The Green Mile</title>
+    <year>1999</year>
+    <genre>Drama</genre>
+    <duration>189</duration>
+    <director>Frank Darabont</director>
+    <synopsis>Kisah para sipir penjara di blok hukuman mati yang memiliki "jalan hijau" menuju kursi listrik. Kehidupan mereka berubah ketika seorang narapidana raksasa berkulit hitam dengan kekuatan supranatural tiba di penjara.</synopsis>
+    <rating>9.1</rating>
+    <votes>2678</votes>
+    <poster>https://image.tmdb.org/t/p/original/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg</poster>
+    <trailer>https://www.youtube.com/embed/Ki4haFrqSrw</trailer>
+    <trending>true</trending>
+    <reviews>
+      <review user="KursiListrikPanasBanget" score="10" date="2024-04-02">Sumpah ini film paling bikin nangis sepanjang masa, saya pakai handuk buat ngelap air mata karena tisu habis buat ngebungkus gorengan tadi siang.</review>
+      <review user="TikusKecilJalanJalan" score="9" date="2024-03-18">Mr. Jingles si tikus aja bisa bikin haru, apalagi pas dia mati lalu dihidupin lagi sama John Coffey, tikusnya bisa acting lebih bagus dari sinetron jam 7 malam.</review>
+      <review user="BusaKaretBasah" score="10" date="2024-02-25">Tom Hanks nggak cuma bisa main kapal selam dan astronot, di sini dia jadi sipir yang baik hati sampe saya pengen masuk penjara kalau dijagain sama bapak-bapak berwajah sedih ini.</review>
+      <review user="SponsKeringRusak" score="8" date="2024-05-01">Percaya nggak, sepanjang film saya nggak berani ke toilet karena takut ketinggalan adegan John Coffey nyembuhin orang cuma pakai tangan gede yang hangat kayak selimut di puncak gunung.</review>
+      <review user="MasyaAllah" score="9" date="2024-01-12">John Coffey nulis namanya sama dengan minuman tapi beda ejaan, dan saya yakin dia minuman favorit Tuhan karena malaikat aja nyerah bawa dia pulang ke surga.</review>
+      <review user="ToiletMampetSelalu" score="10" date="2024-04-20">Percy Wetmore itu karakter paling menyebalkan di sejarah perfilman, muka bocah tapi jahatnya minta ampun, pengen saya masukin ke kursi listrik walau cuma nonton di rumah.</review>
+      <review user="Evolto" score="9" date="2024-03-05">Adegan Wild Bill ngejambak sipir sambil ketawa setan itu bikin bulu kuduk merinding, tapi tetap aja dia kalah sama John Coffey yang cuma sentuh pipinya langsung lemes kayak kue basah.</review>
+      <review user="EmberCuciPiring" score="10" date="2024-02-10">Ketika John Coffey nyembuhin istri bos penjara dari tumor otak, saya nangis bombay plus ingus meler sampai tetangga sebelah ngetok pintu nanya "kamu kenapa, dikirimin STNK telat?"</review>
+      <review user="KainMoriPutih" score="8" date="2024-05-15">Durasi tiga jam nggak kerasa sama sekali karena setiap adegan punya makna yang dalem, beda sama presentasi proyek kelompok yang 15 menit aja berasa satu semester.</review>
+      <review user="KacangKupasBerserakan" score="9" date="2024-01-28">Saya masih kepikiran kalimat "Saya lelah, bos. Saya lelah berjalan di dunia sendirian membawa rasa sakit orang lain" sampai sekarang pas lagi ngantri bayar listrik.</review>
+      <review user="KarpetJalanHijau" score="10" date="2024-04-08">Frank Darabont hebat banget bikin film penjara tapi tetap humanis, nggak ada adegan kabur pakai sendok ngebor tembok kayak di Shawshank, ini mah kaburnya ke sorga.</review>
+      <review user="TopiPetaniTersangkut" score="9" date="2024-03-22">Michael Clarke Duncan yang main John Coffey itu badannya segede gajah tapi hatinya lebih lembut dari kapas, pas dia nangis saya ikutan nangis guling-guling di kasur.</review>
+      <review user="BantalMandiAirMata" score="10" date="2024-02-18">Akhir cerita Paul Edgecomb yang jadi saksi hidup ratusan tahun karena kekuatan John Coffey itu bikin saya merenung, kayaknya kalau hidup lama lebih enak mati aja biar nggak lihat orang kesayangan pergi terus.</review>
+      <review user="GulingBututDitusuk" score="8" date="2024-05-05">Film ini mengajarkan bahwa keajaiban bisa datang dari tempat yang paling tidak kita sangka, bahkan dari tangan seorang raksasa yang duduk di kursi listrik karena tidak membela diri.</review>
+      <review user="PayungBocorDimanaMana" score="9" date="2024-01-22">Saya sampai beli tisu satu dus abis nonton ini, dan saya yakin sampai tua nanti kalau ingat adegan John Coffey nonton film Top Hat, hati saya tetap akan terenyuh. </review>
+    </reviews>
+  </film>
+</films>
